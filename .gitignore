@@ -8,5 +8,8 @@
 .bridge/last-sync-report.md
 /tmp/bridge-*
 
-# Node (track code à venir : bridge-ui/)
+# Node / track code (bridge-ui/)
 node_modules/
+bridge-ui/dist/
+bridge-ui/storybook-static/
+bridge-ui/.storybook-out/
