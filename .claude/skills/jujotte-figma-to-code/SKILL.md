@@ -92,9 +92,10 @@ Storybook flips it.
 
 ## Commands
 
-Seven `/dev-*` commands. The `/dev-` prefix keeps them clear of Bridge's Figma-side commands
+Nine `/dev-*` commands. The `/dev-` prefix keeps them clear of Bridge's Figma-side commands
 (`/fig-sync`, `/fig-page`, `/fig-status`, `make`, `done`). Verification is **built into** the build commands,
-not a separate command; coverage is **built into** `/dev-status`.
+not a separate command; coverage is **built into** `/dev-status`. Two of the nine are **versioning**
+commands (`/dev-git-init`, `/dev-commit`) — this track's archive is git (see "Relationship to Bridge").
 
 ### `/dev-init` — scaffold the library (run once)
 
@@ -224,6 +225,32 @@ One-glance diagnostic of the code track (mirrors Bridge's `/fig-status`, ✅/⚠
   and the onboarding view for a teammate.
 - **Drift flags** pending from the last `/dev-sync`/verify.
 - **Build health:** `npm run typecheck` and a Storybook build smoke-check pass?
+
+### `/dev-git-init <repo-url>` — link the project to a GitHub repo (run once)
+
+Turn the project folder into a git repo and connect it to an **already-created** remote, passed as
+argument. This track's archive is git, so do this before coding components.
+
+1. **The link alone grants nothing.** A URL carries no access. Pushing needs, *per machine / per user*:
+   GitHub auth (`gh auth login`, or SSH key / git PAT) **and** write access to the repo (collaborator,
+   or org member). The command **never embeds a credential** — it checks `gh auth status` and stops with
+   instructions if unauthenticated. Teammates can run it identically once they have auth + write access.
+2. **Idempotent.** If already a git repo, only reconcile the `origin` remote — don't re-init.
+3. **`.gitignore` + secret guard.** Ensure `.DS_Store`, `.claude/settings.local.json`,
+   `.bridge/last-sync-report.md`, `/tmp/bridge-*`, `node_modules/` are ignored. **Never stage a token**
+   (`figd_`/`ghp_`/`github_pat_`/`FIGMA_TOKEN=`).
+4. **Init → commit → remote → reconcile → push.** `git init` + `main`, initial gitmoji commit
+   (`🎉 init: <dsName>`), `remote add origin <url>`, `fetch`, `rebase origin/main` if the remote already
+   has a commit (README), then `push -u origin main`.
+
+### `/dev-commit [message]` — commit to main with a gitmoji message, then push
+
+Stage the working changes, commit on **`main`** with a [gitmoji](https://gitmoji.dev/) summary
+(`<emoji> <résumé>`), append the `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>` trailer, and
+`push origin main` (rebase-and-retry if the remote moved). The emoji is chosen from the change's dominant
+nature — see the gitmoji table in the command file (✨ new component, 💄 style, ♻️ refactor, 🎨 tokens,
+🐛 fix, 🔧 config, 📝 docs, 🔄 Figma→code sync…). Guards against committing secrets first. Commits go
+**straight to main by design** here; for heavier multi-person changes a PR + review is safer (offer it).
 
 ---
 
