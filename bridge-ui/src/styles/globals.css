@@ -1,0 +1,22 @@
+/* Fonts (real families from text-styles.json: DM Sans body, Cal Sans display).
+   All @import rules must come before any other rule. */
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/700.css';
+@import '@fontsource/cal-sans/400.css';
+
+/* Generated design tokens (CSS custom properties, light + dark). Run `npm run tokens`. */
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background-color: var(--background-primary, #ffffff);
+    color: var(--content-primary, #000000);
+  }
+}
