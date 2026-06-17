@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-17T13:44:43.866Z",
+  "source": "figma-console-mcp",
+  "figmaFileKey": "zNPayJbVf70rk78IQZXeW9",
+  "styles": [
+    {
+      "key": "70f0f033a39bc67fa61a0c99f88a7615bd7fe92e",
+      "name": "Display/Extra Large",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 128,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "9e87182d943f188cacfd55e78a0a4fde68bf0387",
+      "name": "Display/Large",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 96,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "566217ead258ff3fbb47ce7c305d8e1ec9861c84",
+      "name": "Display/Medium",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 72,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "32dc9b7faad0cff2b64630f83c12a5f1881a8068",
+      "name": "Display/Small",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 64,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "8d146ea883773b39dba79cd414184b67a3e50ab3",
+      "name": "Display/Tiny",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "cd4b585bb783444d40084bf2810fb52346f86ab6",
+      "name": "Heading/Extra Large",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 36,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "cb25de5385bfcda5154451dc496d3c3d636831b4",
+      "name": "Heading/Large",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 30,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "c3e21c5d0422627f4eab3cc5d2b2511f24fba2ee",
+      "name": "Heading/Medium",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "25ee89c6af06c138c4ad45d40304531753650821",
+      "name": "Heading/Small",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "5939c6a39b222bc9a98479e6c46d94c2103e5f83",
+      "name": "Heading/Tiny",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      }
+    },
+    {
+      "key": "d7f96e63efcff88e97a18eb21bbf5f673a6af5db",
+      "name": "Label/Large",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      }
+    },
+    {
+      "key": "094e1ad9f6a19f58f4e9d459a2f129f04d476f1d",
+      "name": "Label/Base",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      }
+    },
+    {
+      "key": "af4c687dfee98c4985e3d2a2eb60aa47aeb4f3f2",
+      "name": "Label/Small",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      }
+    },
+    {
+      "key": "0cc7bb047f4d6b4ea480ab4cbbf7d34a867be7f8",
+      "name": "Label/Tiny",
+      "fontFamily": "Cal Sans",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      }
+    },
+    {
+      "key": "3a7b1ca39e52bafbe1a42f8d3d972512bb581886",
+      "name": "Paragraph/Large",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "key": "433b1e04cbe11a543bcaa2972b80fbb9550653b0",
+      "name": "Paragraph/Base",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "key": "50473981954a08b359895bb0c064d3523f41e7e8",
+      "name": "Paragraph/Small",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "key": "3ddc29d453e33428d95d1dc086771333aae59059",
+      "name": "Paragraph/Tiny",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "key": "632200f607f0f935fa4f38f63e3fc54f51e81267",
+      "name": "Subtitle/Large",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      }
+    },
+    {
+      "key": "660ecd4bf2304c03441b5a646885f89d44e4b26b",
+      "name": "Subtitle/Base",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      }
+    },
+    {
+      "key": "3e0554d6fda860bd603876ca0fd4bd45b142fbb6",
+      "name": "Subtitle/Small",
+      "fontFamily": "DM Sans",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      }
+    }
+  ]
+}

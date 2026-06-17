@@ -1,0 +1,6 @@
+dsName: "Catalyst x Jujotte"
+figmaFileKey: "zNPayJbVf70rk78IQZXeW9"
+kbPath: "bridge-ds"
+cron:
+  cadence: "daily"
+  time: "06:00"

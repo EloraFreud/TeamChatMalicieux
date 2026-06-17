@@ -1,0 +1,4754 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-09T15:15:20.668Z",
+  "source": "figma-console-mcp (harvest des variantes de COMPONENT_SET)",
+  "figmaFileKey": "vf9nL24dkW4fTmAcyL2OXq",
+  "note": "node-id de chaque variante par set. STABLE à la duplication (Figma préserve les node-ids) → ce fichier reste valide sur les duplicatas sans re-sync, tant que les composants ne sont pas modifiés. Résolution : trouver le set par name, puis la variante dont props correspond. Instancier via getNodeByIdAsync(id).createInstance().",
+  "setCount": 66,
+  "totalVariants": 562,
+  "sets": [
+    {
+      "name": "Button",
+      "id": "3858:2365",
+      "key": "605dca5728f0f470e16ac102995c3e61b47a0e29",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3858:2571",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2939",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2596",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2959",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2616",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2979",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2636",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2999",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2678",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3039",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2702",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3047",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2726",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3055",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2750",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3063",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2581",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3883:6637",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2944",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3883:6642",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2591",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2600",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2964",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2605",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2611",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2636",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2984",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2641",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2631",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2748",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:3004",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2753",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2672",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3883:6657",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3041",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3883:6659",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2696",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2620",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3049",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2622",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2720",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2656",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3057",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2658",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2744",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2768",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3065",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2770",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2566",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2949",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2586",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2969",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2606",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2989",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2626",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:3009",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2666",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3043",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2690",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3051",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2714",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3059",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2738",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3067",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2576",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2954",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2601",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2974",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2621",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2994",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2641",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:3014",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2680",
+          "props": {
+            "Type": "Primary",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3045",
+          "props": {
+            "Type": "Secondary",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2704",
+          "props": {
+            "Type": "Primary",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3053",
+          "props": {
+            "Type": "Secondary",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2728",
+          "props": {
+            "Type": "Primary",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3061",
+          "props": {
+            "Type": "Secondary",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2752",
+          "props": {
+            "Type": "Primary",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:3069",
+          "props": {
+            "Type": "Secondary",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2476",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2496",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2516",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2536",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2686",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2710",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2734",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2758",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2471",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3883:6647",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2491",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2610",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2511",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2646",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2531",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2758",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2676",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3883:6661",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2700",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2624",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2724",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2660",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2748",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2772",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2466",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2486",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2506",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2526",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2670",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2694",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2718",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2742",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2481",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2501",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2521",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2541",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2688",
+          "props": {
+            "Type": "Outline",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2712",
+          "props": {
+            "Type": "Outline",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2736",
+          "props": {
+            "Type": "Outline",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2760",
+          "props": {
+            "Type": "Outline",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2371",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2396",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2416",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2436",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2682",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2706",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2730",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2754",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Default",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2381",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3883:6652",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2391",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2615",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2411",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2651",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2431",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3891:2763",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2674",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3883:6663",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2698",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2626",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2722",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2662",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2746",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Hover",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3891:2774",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Press",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2366",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2386",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2406",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2426",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2668",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2692",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2716",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2740",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Focus",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2376",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2401",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2421",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2441",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "False"
+          }
+        },
+        {
+          "id": "3858:2684",
+          "props": {
+            "Type": "Plain",
+            "Size": "xl",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2708",
+          "props": {
+            "Type": "Plain",
+            "Size": "l",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2732",
+          "props": {
+            "Type": "Plain",
+            "Size": "base",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        },
+        {
+          "id": "3858:2756",
+          "props": {
+            "Type": "Plain",
+            "Size": "sm",
+            "State": "Disabled",
+            "Icon Only": "True"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.Checkbox",
+      "id": "105:11509",
+      "key": "06ece1bdbc8f56659d9be8bae342d6dcf9150451",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:11510",
+          "props": {
+            "State": "Focus",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11514",
+          "props": {
+            "State": "Default",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:17728",
+          "props": {
+            "State": "Disabled",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11518",
+          "props": {
+            "State": "Hover",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11522",
+          "props": {
+            "State": "Focus",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:11523",
+          "props": {
+            "State": "Hover",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:11524",
+          "props": {
+            "State": "Default",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:17730",
+          "props": {
+            "State": "Disabled",
+            "Selected": "False"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "id": "3867:5296",
+      "key": "443e5094c6592b0100a5d29942f4513f09525582",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:11553",
+          "props": {
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.DropdownButton",
+      "id": "105:15580",
+      "key": "fe874ad957b98e09f18fff5c86fcdbe228e4f18e",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:15579",
+          "props": {
+            "State": "Focus",
+            "Type": "Icon Only"
+          }
+        },
+        {
+          "id": "105:15578",
+          "props": {
+            "State": "Hover",
+            "Type": "Icon Only"
+          }
+        },
+        {
+          "id": "105:15576",
+          "props": {
+            "State": "Default",
+            "Type": "Icon Only"
+          }
+        },
+        {
+          "id": "105:18054",
+          "props": {
+            "State": "Disabled",
+            "Type": "Icon Only"
+          }
+        },
+        {
+          "id": "105:15575",
+          "props": {
+            "State": "Focus",
+            "Type": "Default"
+          }
+        },
+        {
+          "id": "105:15574",
+          "props": {
+            "State": "Hover",
+            "Type": "Default"
+          }
+        },
+        {
+          "id": "105:15577",
+          "props": {
+            "State": "Default",
+            "Type": "Default"
+          }
+        },
+        {
+          "id": "105:18056",
+          "props": {
+            "State": "Disabled",
+            "Type": "Default"
+          }
+        },
+        {
+          "id": "639:13525",
+          "props": {
+            "State": "Focus",
+            "Type": "NavbarItem"
+          }
+        },
+        {
+          "id": "639:17290",
+          "props": {
+            "State": "Focus",
+            "Type": "SidebarItem"
+          }
+        },
+        {
+          "id": "639:13528",
+          "props": {
+            "State": "Hover",
+            "Type": "NavbarItem"
+          }
+        },
+        {
+          "id": "639:17296",
+          "props": {
+            "State": "Hover",
+            "Type": "SidebarItem"
+          }
+        },
+        {
+          "id": "639:13531",
+          "props": {
+            "State": "Default",
+            "Type": "NavbarItem"
+          }
+        },
+        {
+          "id": "639:17302",
+          "props": {
+            "State": "Default",
+            "Type": "SidebarItem"
+          }
+        },
+        {
+          "id": "639:13534",
+          "props": {
+            "State": "Disabled",
+            "Type": "NavbarItem"
+          }
+        },
+        {
+          "id": "639:17308",
+          "props": {
+            "State": "Disabled",
+            "Type": "SidebarItem"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/DropdownItem",
+      "id": "105:12670",
+      "key": "db2e5876fdb2348632ee2fc8ff5bd1e757e3c09f",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:12677",
+          "props": {
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:12674",
+          "props": {
+            "State": "Hover"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.DropdownHeader",
+      "id": "3867:5888",
+      "key": "16e16d24a934181d5fd805035b5db206e0398a1a",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:15627",
+          "props": {
+            "Property 1": "DropdownHeader"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.DropdownDivider",
+      "id": "3867:6396",
+      "key": "e597587ec43e56c4f647bc827bddcbe73ddceda9",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:15160",
+          "props": {
+            "Property 1": "DropdownDivider"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.DropdownHeading",
+      "id": "3867:6399",
+      "key": "bd069b0df7256d8dfe8f04d082246a4048995719",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:15178",
+          "props": {
+            "Property 1": "DropdownHeading"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.DropdownMenu",
+      "id": "105:24429",
+      "key": "b333bf60dc0dfdd9abe552c5b5d2fcd6a883a627",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:24425",
+          "props": {
+            "Menu Type": "Basic"
+          }
+        },
+        {
+          "id": "105:24427",
+          "props": {
+            "Menu Type": "w/ icons"
+          }
+        },
+        {
+          "id": "105:24424",
+          "props": {
+            "Menu Type": "w/ shortcuts"
+          }
+        },
+        {
+          "id": "105:24423",
+          "props": {
+            "Menu Type": "w/ Menu Header"
+          }
+        },
+        {
+          "id": "105:24428",
+          "props": {
+            "Menu Type": "w/ Description"
+          }
+        },
+        {
+          "id": "639:13573",
+          "props": {
+            "Menu Type": "As Nav Menu"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dropdown",
+      "id": "105:15773",
+      "key": "eb39b0000772aa189d9369b19834309d236832cf",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:15772",
+          "props": {
+            "Open Menu": "True",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "639:14902",
+          "props": {
+            "Open Menu": "True",
+            "Type": "As Navigation Menu"
+          }
+        },
+        {
+          "id": "639:17470",
+          "props": {
+            "Open Menu": "True",
+            "Type": "As Sidebar Menu"
+          }
+        },
+        {
+          "id": "105:15768",
+          "props": {
+            "Open Menu": "True",
+            "Type": "w/ Icon trigger"
+          }
+        },
+        {
+          "id": "105:16154",
+          "props": {
+            "Open Menu": "True",
+            "Type": "w/ Avatar Trigger"
+          }
+        },
+        {
+          "id": "105:15793",
+          "props": {
+            "Open Menu": "False",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "639:14905",
+          "props": {
+            "Open Menu": "False",
+            "Type": "As Navigation Menu"
+          }
+        },
+        {
+          "id": "639:17473",
+          "props": {
+            "Open Menu": "False",
+            "Type": "As Sidebar Menu"
+          }
+        },
+        {
+          "id": "105:15825",
+          "props": {
+            "Open Menu": "False",
+            "Type": "w/ Icon trigger"
+          }
+        },
+        {
+          "id": "105:16160",
+          "props": {
+            "Open Menu": "False",
+            "Type": "w/ Avatar Trigger"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.RadioButton",
+      "id": "105:11525",
+      "key": "496268a539588b2baab80cabe99ca6e72dd40212",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:11526",
+          "props": {
+            "State": "Hover",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11528",
+          "props": {
+            "State": "Focus",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11530",
+          "props": {
+            "State": "Default",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:17735",
+          "props": {
+            "State": "Disabled",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:11532",
+          "props": {
+            "State": "Focus",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:11533",
+          "props": {
+            "State": "Hover",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:11534",
+          "props": {
+            "State": "Default",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:17737",
+          "props": {
+            "State": "Disabled",
+            "Selected": "False"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RadioButton",
+      "id": "3867:6402",
+      "key": "7faba0486fe9c1c798bafd5631c6c52c9d52b9fd",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:11535",
+          "props": {
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.ListboxButton",
+      "id": "123:57833",
+      "key": "61dcb2a4df131910b88b4a086adee1f8e63c73f7",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "123:57834",
+          "props": {
+            "Type": "Filled",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "123:57837",
+          "props": {
+            "Type": "Placeholder",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "123:57969",
+          "props": {
+            "Type": "w/ Flag",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "123:58112",
+          "props": {
+            "Type": "w/ Avatar",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "123:57840",
+          "props": {
+            "Type": "Filled",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "123:57843",
+          "props": {
+            "Type": "Placeholder",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "123:57972",
+          "props": {
+            "Type": "w/ Flag",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "123:58116",
+          "props": {
+            "Type": "w/ Avatar",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "123:57846",
+          "props": {
+            "Type": "Filled",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "123:57849",
+          "props": {
+            "Type": "Placeholder",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "123:57975",
+          "props": {
+            "Type": "w/ Flag",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "123:58120",
+          "props": {
+            "Type": "w/ Avatar",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "123:57852",
+          "props": {
+            "Type": "Filled",
+            "State": "Disabled"
+          }
+        },
+        {
+          "id": "123:57855",
+          "props": {
+            "Type": "Placeholder",
+            "State": "Disabled"
+          }
+        },
+        {
+          "id": "123:57978",
+          "props": {
+            "Type": "w/ Flag",
+            "State": "Disabled"
+          }
+        },
+        {
+          "id": "123:58124",
+          "props": {
+            "Type": "w/ Avatar",
+            "State": "Disabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.ListboxMenu",
+      "id": "105:21329",
+      "key": "3628cff99eed23710928874cf5aca06ef99f9fdd",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:21325",
+          "props": {
+            "Menu Type": "Basic"
+          }
+        },
+        {
+          "id": "105:21327",
+          "props": {
+            "Menu Type": "w/ avatar"
+          }
+        },
+        {
+          "id": "105:21328",
+          "props": {
+            "Menu Type": "w/ icon"
+          }
+        },
+        {
+          "id": "105:21326",
+          "props": {
+            "Menu Type": "w/ flag"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.ListboxMenuItem",
+      "id": "105:19734",
+      "key": "6e2950f86afefc7c0b8709b68e6d7ac40a6251e6",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:19747",
+          "props": {
+            "State": "Default",
+            "Selected": "False",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "105:20065",
+          "props": {
+            "State": "Default",
+            "Selected": "False",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "105:20121",
+          "props": {
+            "State": "Default",
+            "Selected": "False",
+            "Type": "w/ Avatar"
+          }
+        },
+        {
+          "id": "105:19741",
+          "props": {
+            "State": "Hover",
+            "Selected": "False",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "105:20070",
+          "props": {
+            "State": "Hover",
+            "Selected": "False",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "105:20126",
+          "props": {
+            "State": "Hover",
+            "Selected": "False",
+            "Type": "w/ Avatar"
+          }
+        },
+        {
+          "id": "105:19784",
+          "props": {
+            "State": "Default",
+            "Selected": "True",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "105:20075",
+          "props": {
+            "State": "Default",
+            "Selected": "True",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "105:20131",
+          "props": {
+            "State": "Default",
+            "Selected": "True",
+            "Type": "w/ Avatar"
+          }
+        },
+        {
+          "id": "105:19778",
+          "props": {
+            "State": "Hover",
+            "Selected": "True",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "105:20081",
+          "props": {
+            "State": "Hover",
+            "Selected": "True",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "105:20137",
+          "props": {
+            "State": "Hover",
+            "Selected": "True",
+            "Type": "w/ Avatar"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Listbox",
+      "id": "105:19572",
+      "key": "ba691c5ef82cfbb6d5806e85f8c23f45652d91e5",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:19583",
+          "props": {
+            "Menu Open": "False",
+            "Layout": "Default",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "123:59052",
+          "props": {
+            "Menu Open": "False",
+            "Layout": "Default",
+            "Type": "w/ Icon"
+          }
+        },
+        {
+          "id": "123:58207",
+          "props": {
+            "Menu Open": "False",
+            "Layout": "Default",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "123:58407",
+          "props": {
+            "Menu Open": "False",
+            "Layout": "Default",
+            "Type": "w/ Avatar"
+          }
+        },
+        {
+          "id": "105:19576",
+          "props": {
+            "Menu Open": "True",
+            "Layout": "Default",
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "123:59057",
+          "props": {
+            "Menu Open": "True",
+            "Layout": "Default",
+            "Type": "w/ Icon"
+          }
+        },
+        {
+          "id": "123:58212",
+          "props": {
+            "Menu Open": "True",
+            "Layout": "Default",
+            "Type": "w/ Flags"
+          }
+        },
+        {
+          "id": "123:58412",
+          "props": {
+            "Menu Open": "True",
+            "Layout": "Default",
+            "Type": "w/ Avatar"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".Select/.SelectButton",
+      "id": "105:17682",
+      "key": "910c11901cc49a09ece905a3a63423551176db9a",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:17695",
+          "props": {
+            "State": "Default",
+            "Text": "Filled"
+          }
+        },
+        {
+          "id": "105:38720",
+          "props": {
+            "State": "Default",
+            "Text": "Placeholder"
+          }
+        },
+        {
+          "id": "105:17692",
+          "props": {
+            "State": "Hover",
+            "Text": "Filled"
+          }
+        },
+        {
+          "id": "105:38723",
+          "props": {
+            "State": "Hover",
+            "Text": "Placeholder"
+          }
+        },
+        {
+          "id": "105:17689",
+          "props": {
+            "State": "Focus",
+            "Text": "Filled"
+          }
+        },
+        {
+          "id": "105:38726",
+          "props": {
+            "State": "Focus",
+            "Text": "Placeholder"
+          }
+        },
+        {
+          "id": "105:17720",
+          "props": {
+            "State": "Disabled",
+            "Text": "Filled"
+          }
+        },
+        {
+          "id": "105:38729",
+          "props": {
+            "State": "Disabled",
+            "Text": "Placeholder"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.SelectMenuItem",
+      "id": "105:18107",
+      "key": "a39708c457bf83b0aedda4c9f3da5700ebf7d4c5",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:18111",
+          "props": {
+            "State": "Default",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:18108",
+          "props": {
+            "State": "Hover",
+            "Selected": "False"
+          }
+        },
+        {
+          "id": "105:18114",
+          "props": {
+            "State": "Default",
+            "Selected": "True"
+          }
+        },
+        {
+          "id": "105:18117",
+          "props": {
+            "State": "Hover",
+            "Selected": "True"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.SelectMenu",
+      "id": "3870:4626",
+      "key": "bf145db0aa2a3e3fc002b080604e151a3195f2fb",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:18121",
+          "props": {
+            "Property 1": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Select",
+      "id": "105:38223",
+      "key": "3989b26888760dbeb32a1498b25982666e327e0f",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:38224",
+          "props": {
+            "Menu Open": "False",
+            "Layout": "Default"
+          }
+        },
+        {
+          "id": "105:38229",
+          "props": {
+            "Menu Open": "True",
+            "Layout": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.Switch",
+      "id": "105:16752",
+      "key": "c53f200ae18f85b76f3f3d2fc5b34cad7e074116",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:16753",
+          "props": {
+            "On": "True",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "105:16757",
+          "props": {
+            "On": "True",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:16761",
+          "props": {
+            "On": "True",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:16765",
+          "props": {
+            "On": "False",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "105:16769",
+          "props": {
+            "On": "False",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:16773",
+          "props": {
+            "On": "False",
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Switch",
+      "id": "105:16797",
+      "key": "c767ed7a3acb4a5c34c9f0b2f53bda26e00caf5f",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:16798",
+          "props": {
+            "Label": "Trailing"
+          }
+        },
+        {
+          "id": "105:16801",
+          "props": {
+            "Label": "Leading"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "id": "3892:5599",
+      "key": "33a20b1404bf57514dccae48416a2fc1c4d788e2",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3892:5600",
+          "props": {
+            "State": "Default",
+            "Mobile": "False"
+          }
+        },
+        {
+          "id": "3892:5612",
+          "props": {
+            "State": "Open",
+            "Mobile": "False"
+          }
+        },
+        {
+          "id": "3892:5620",
+          "props": {
+            "State": "Default",
+            "Mobile": "True"
+          }
+        },
+        {
+          "id": "3892:5632",
+          "props": {
+            "State": "Open",
+            "Mobile": "True"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ImportCard",
+      "id": "3894:9467",
+      "key": "371d0b4a9e25e9669eb8c17a4f28905f35f95f89",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3894:9468",
+          "props": {
+            "state": "Default"
+          }
+        },
+        {
+          "id": "3894:9598",
+          "props": {
+            "state": "state2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sections",
+      "id": "3896:3557",
+      "key": "fee8d826acc2a301cc2747ca3c826d37fff82cc7",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3896:3558",
+          "props": {
+            "Image": "Right",
+            "Device": "Desktop"
+          }
+        },
+        {
+          "id": "3896:3589",
+          "props": {
+            "Image": "Left",
+            "Device": "Desktop"
+          }
+        },
+        {
+          "id": "3896:3620",
+          "props": {
+            "Image": "Right",
+            "Device": "Mobile"
+          }
+        },
+        {
+          "id": "3896:3651",
+          "props": {
+            "Image": "Left",
+            "Device": "Mobile"
+          }
+        }
+      ]
+    },
+    {
+      "name": "InfosState",
+      "id": "3895:4028",
+      "key": "ce3f98dca75ede752b1fbdca00031ed15e8930a3",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3895:4029",
+          "props": {
+            "State": "Default"
+          }
+        },
+        {
+          "id": "3895:4034",
+          "props": {
+            "State": "Load"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Progression",
+      "id": "3895:3800",
+      "key": "959b133eb14c2b6ac08d392681d6ad8ad1032ed6",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3895:3801",
+          "props": {
+            "Percent": "100%"
+          }
+        },
+        {
+          "id": "3895:3805",
+          "props": {
+            "Percent": "75%"
+          }
+        },
+        {
+          "id": "3895:3809",
+          "props": {
+            "Percent": "50%"
+          }
+        },
+        {
+          "id": "3895:3813",
+          "props": {
+            "Percent": "25%"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chart",
+      "id": "3895:3773",
+      "key": "36c85cd180bc63ea7442ae822b85397d8680b812",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3895:3774",
+          "props": {
+            "Percent": "100%"
+          }
+        },
+        {
+          "id": "3895:3780",
+          "props": {
+            "Percent": "75"
+          }
+        },
+        {
+          "id": "3895:3786",
+          "props": {
+            "Percent": "50"
+          }
+        },
+        {
+          "id": "3895:3792",
+          "props": {
+            "Percent": "25"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ProgressBar",
+      "id": "3895:3817",
+      "key": "ee929f885fd26fdcc8eeef5105d6b862caccf4a9",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3895:3818",
+          "props": {
+            "State": "End"
+          }
+        },
+        {
+          "id": "3895:3822",
+          "props": {
+            "State": "Start"
+          }
+        },
+        {
+          "id": "3895:3826",
+          "props": {
+            "State": "Not started"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".base components/.TabBarItem",
+      "id": "3909:7561",
+      "key": "9fff6cd0653521f38790310361c1324e64bbc821",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3909:7562",
+          "props": {
+            "Active": "Yes",
+            "Type": "Icon"
+          }
+        },
+        {
+          "id": "3909:7567",
+          "props": {
+            "Active": "No",
+            "Type": "Icon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TabBar",
+      "id": "3909:7540",
+      "key": "9c747c6d1a1b8cf5bb7de22d58332aa49bd7fdbb",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3909:7541",
+          "props": {
+            "Property 1": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dialog",
+      "id": "3870:4668",
+      "key": "ef7283b76ce7bc9e63f51102d473d75c3b626057",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:10502",
+          "props": {
+            "Property 1": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Snackbar",
+      "id": "3892:6998",
+      "key": "9952298f84f078470063168eb6d52359ffe78750",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3892:6999",
+          "props": {
+            "Severity": "Info"
+          }
+        },
+        {
+          "id": "3892:7007",
+          "props": {
+            "Severity": "Success"
+          }
+        },
+        {
+          "id": "3892:7015",
+          "props": {
+            "Severity": "Warning"
+          }
+        },
+        {
+          "id": "3892:7023",
+          "props": {
+            "Severity": "Error"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Avatar",
+      "id": "105:9723",
+      "key": "1241ecb4a472b9877ad2daeeffd68871134727a7",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:9730",
+          "props": {
+            "Type": "Circular",
+            "Size": "10 ⋅ (40px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9732",
+          "props": {
+            "Type": "Circular",
+            "Size": "8 ⋅ (32px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9736",
+          "props": {
+            "Type": "Circular",
+            "Size": "6 ⋅ (24px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:20155",
+          "props": {
+            "Type": "Circular",
+            "Size": "4 ⋅ (20px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9800",
+          "props": {
+            "Type": "Rounded",
+            "Size": "10 ⋅ (40px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9802",
+          "props": {
+            "Type": "Rounded",
+            "Size": "8 ⋅ (32px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9804",
+          "props": {
+            "Type": "Rounded",
+            "Size": "6 ⋅ (24px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:20157",
+          "props": {
+            "Type": "Rounded",
+            "Size": "4 ⋅ (20px)",
+            "Initials": "True"
+          }
+        },
+        {
+          "id": "105:9761",
+          "props": {
+            "Type": "Rounded",
+            "Size": "10 ⋅ (40px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:9764",
+          "props": {
+            "Type": "Rounded",
+            "Size": "8 ⋅ (32px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:9770",
+          "props": {
+            "Type": "Rounded",
+            "Size": "6 ⋅ (24px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:20159",
+          "props": {
+            "Type": "Rounded",
+            "Size": "4 ⋅ (20px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:9782",
+          "props": {
+            "Type": "Circular",
+            "Size": "10 ⋅ (40px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:9785",
+          "props": {
+            "Type": "Circular",
+            "Size": "8 ⋅ (32px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:9791",
+          "props": {
+            "Type": "Circular",
+            "Size": "6 ⋅ (24px)",
+            "Initials": "False"
+          }
+        },
+        {
+          "id": "105:20160",
+          "props": {
+            "Type": "Circular",
+            "Size": "4 ⋅ (20px)",
+            "Initials": "False"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Badge",
+      "id": "105:10747",
+      "key": "f123fbb7253e1e3024d49de80e85106ad5312ce0",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:10797",
+          "props": {
+            "Color": "Zinc",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:10972",
+          "props": {
+            "Color": "Zinc",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:10982",
+          "props": {
+            "Color": "Red",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:10984",
+          "props": {
+            "Color": "Red",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:10990",
+          "props": {
+            "Color": "Orange",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:10992",
+          "props": {
+            "Color": "Orange",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:10998",
+          "props": {
+            "Color": "Amber",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11000",
+          "props": {
+            "Color": "Amber",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11006",
+          "props": {
+            "Color": "Yellow",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11008",
+          "props": {
+            "Color": "Yellow",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11018",
+          "props": {
+            "Color": "Lime",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11020",
+          "props": {
+            "Color": "Lime",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11026",
+          "props": {
+            "Color": "Green",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11028",
+          "props": {
+            "Color": "Green",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11034",
+          "props": {
+            "Color": "Emerald",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11036",
+          "props": {
+            "Color": "Emerald",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11042",
+          "props": {
+            "Color": "Teal",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11044",
+          "props": {
+            "Color": "Teal",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11050",
+          "props": {
+            "Color": "Cyan",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11052",
+          "props": {
+            "Color": "Cyan",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11058",
+          "props": {
+            "Color": "Sky",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11060",
+          "props": {
+            "Color": "Sky",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11066",
+          "props": {
+            "Color": "Blue",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11068",
+          "props": {
+            "Color": "Blue",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11074",
+          "props": {
+            "Color": "Indigo",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11076",
+          "props": {
+            "Color": "Indigo",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11082",
+          "props": {
+            "Color": "Violet",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11084",
+          "props": {
+            "Color": "Violet",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11090",
+          "props": {
+            "Color": "Purple",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11092",
+          "props": {
+            "Color": "Purple",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11098",
+          "props": {
+            "Color": "Fuchsia",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11100",
+          "props": {
+            "Color": "Fuchsia",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11106",
+          "props": {
+            "Color": "Pink",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11108",
+          "props": {
+            "Color": "Pink",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "105:11114",
+          "props": {
+            "Color": "Rose",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "105:11116",
+          "props": {
+            "Color": "Rose",
+            "State": "Hover"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chips",
+      "id": "3882:6931",
+      "key": "ec8d1aafafabe943b6b68e32bf963e8cf350eca5",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3882:7190",
+          "props": {
+            "State": "Default"
+          }
+        },
+        {
+          "id": "3882:7198",
+          "props": {
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "3882:7204",
+          "props": {
+            "State": "Pressed"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Description list",
+      "id": "3870:4715",
+      "key": "19a0f54d9a5dce111744ef61e83873fa8416338d",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:17978",
+          "props": {
+            "Property 1": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Divider",
+      "id": "639:11928",
+      "key": "855023e89e15ea389ed20288dd46195f072d5942",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:11920",
+          "props": {
+            "Type": "Default",
+            "Orientation": "Horizontal"
+          }
+        },
+        {
+          "id": "639:11925",
+          "props": {
+            "Type": "Soft",
+            "Orientation": "Horizontal"
+          }
+        },
+        {
+          "id": "639:15025",
+          "props": {
+            "Type": "Sidebar",
+            "Orientation": "Vertical"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "id": "639:12248",
+      "key": "6f453ce1405f0bdf959500b0207477049488e1fe",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:12191",
+          "props": {
+            "Type": "Heading"
+          }
+        },
+        {
+          "id": "639:12243",
+          "props": {
+            "Type": "Subheading"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pagination",
+      "id": "4022:3493",
+      "key": "1f2da8aba23c399e14875c3a3596d5ab1ce9a252",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:17300",
+          "props": {
+            "Go to": "No"
+          }
+        },
+        {
+          "id": "4035:5257",
+          "props": {
+            "Go to": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "id": "228:14602",
+      "key": "5a30f3b15453ab669c1fa8d89dff6d89a987cc3a",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "228:14751",
+          "props": {
+            "Type": "Text",
+            "State": "Focus",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14983",
+          "props": {
+            "Type": "Code",
+            "State": "Focus",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14921",
+          "props": {
+            "Type": "Text",
+            "State": "Focus",
+            "Underline": "True",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14879",
+          "props": {
+            "Type": "Text",
+            "State": "Focus",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14987",
+          "props": {
+            "Type": "Code",
+            "State": "Focus",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14925",
+          "props": {
+            "Type": "Text",
+            "State": "Focus",
+            "Underline": "True",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14759",
+          "props": {
+            "Type": "Text",
+            "State": "Hover",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14991",
+          "props": {
+            "Type": "Code",
+            "State": "Hover",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14929",
+          "props": {
+            "Type": "Text",
+            "State": "Hover",
+            "Underline": "True",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14883",
+          "props": {
+            "Type": "Text",
+            "State": "Hover",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14995",
+          "props": {
+            "Type": "Code",
+            "State": "Hover",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14933",
+          "props": {
+            "Type": "Text",
+            "State": "Hover",
+            "Underline": "True",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14767",
+          "props": {
+            "Type": "Text",
+            "State": "Default",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14999",
+          "props": {
+            "Type": "Code",
+            "State": "Default",
+            "Underline": "False",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14937",
+          "props": {
+            "Type": "Text",
+            "State": "Default",
+            "Underline": "True",
+            "Strong": "False"
+          }
+        },
+        {
+          "id": "228:14887",
+          "props": {
+            "Type": "Text",
+            "State": "Default",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:15003",
+          "props": {
+            "Type": "Code",
+            "State": "Default",
+            "Underline": "False",
+            "Strong": "True"
+          }
+        },
+        {
+          "id": "228:14941",
+          "props": {
+            "Type": "Text",
+            "State": "Default",
+            "Underline": "True",
+            "Strong": "True"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".base components/.InputText",
+      "id": "113:40011",
+      "key": "69586bfa1f0a0ecdfe9f346f8fbd69239d176ada",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:39759",
+          "props": {
+            "State": "Placeholder"
+          }
+        },
+        {
+          "id": "113:40010",
+          "props": {
+            "State": "Typing"
+          }
+        },
+        {
+          "id": "113:40012",
+          "props": {
+            "State": "Filled"
+          }
+        },
+        {
+          "id": "113:40024",
+          "props": {
+            "State": "Disabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".base components/.InputBackplate",
+      "id": "105:39083",
+      "key": "8cfd32325c2318222d0986f5ecc340afeb348bb1",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:39084",
+          "props": {
+            "State": "Filled",
+            "Error": "False",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5313",
+          "props": {
+            "State": "Filled",
+            "Error": "False",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "113:40283",
+          "props": {
+            "State": "Focus",
+            "Error": "False",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5315",
+          "props": {
+            "State": "Focus",
+            "Error": "False",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39094",
+          "props": {
+            "State": "Filled",
+            "Error": "True",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5317",
+          "props": {
+            "State": "Filled",
+            "Error": "True",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "113:40285",
+          "props": {
+            "State": "Focus",
+            "Error": "True",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5319",
+          "props": {
+            "State": "Focus",
+            "Error": "True",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39925",
+          "props": {
+            "State": "Disabled",
+            "Error": "True",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5321",
+          "props": {
+            "State": "Disabled",
+            "Error": "True",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39100",
+          "props": {
+            "State": "Hover",
+            "Error": "False",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5323",
+          "props": {
+            "State": "Hover",
+            "Error": "False",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39110",
+          "props": {
+            "State": "Hover",
+            "Error": "True",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5325",
+          "props": {
+            "State": "Hover",
+            "Error": "True",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39116",
+          "props": {
+            "State": "Default",
+            "Error": "False",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5327",
+          "props": {
+            "State": "Default",
+            "Error": "False",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39927",
+          "props": {
+            "State": "Disabled",
+            "Error": "False",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5329",
+          "props": {
+            "State": "Disabled",
+            "Error": "False",
+            "Size": "sm"
+          }
+        },
+        {
+          "id": "105:39126",
+          "props": {
+            "State": "Default",
+            "Error": "True",
+            "Size": "base"
+          }
+        },
+        {
+          "id": "3882:5331",
+          "props": {
+            "State": "Default",
+            "Error": "True",
+            "Size": "sm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Input",
+      "id": "3870:5025",
+      "key": "efc9c18cc2f307adff5e2084e037f9d01dcd4a91",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "105:39050",
+          "props": {
+            "State": "Default"
+          }
+        },
+        {
+          "id": "3893:9690",
+          "props": {
+            "State": "Phone"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".base components/.InputText",
+      "id": "113:44679",
+      "key": "1ec98e2917d4ede304541e946ddc64f8215a6547",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "113:44680",
+          "props": {
+            "State": "Placeholder"
+          }
+        },
+        {
+          "id": "113:44682",
+          "props": {
+            "State": "Typing"
+          }
+        },
+        {
+          "id": "113:44693",
+          "props": {
+            "State": "Filled"
+          }
+        },
+        {
+          "id": "113:44695",
+          "props": {
+            "State": "Disabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".base components/.TextAreaBackplate",
+      "id": "113:44661",
+      "key": "c7c81f0a46cb731f9a7aca0cdbc4e112650b56ed",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "113:44666",
+          "props": {
+            "State": "Default",
+            "Error": "False"
+          }
+        },
+        {
+          "id": "113:44748",
+          "props": {
+            "State": "Default",
+            "Error": "True"
+          }
+        },
+        {
+          "id": "113:44670",
+          "props": {
+            "State": "Hover",
+            "Error": "False"
+          }
+        },
+        {
+          "id": "113:44752",
+          "props": {
+            "State": "Hover",
+            "Error": "True"
+          }
+        },
+        {
+          "id": "113:44662",
+          "props": {
+            "State": "Focus",
+            "Error": "False"
+          }
+        },
+        {
+          "id": "113:44756",
+          "props": {
+            "State": "Focus",
+            "Error": "True"
+          }
+        },
+        {
+          "id": "113:44713",
+          "props": {
+            "State": "Filled",
+            "Error": "False"
+          }
+        },
+        {
+          "id": "113:44760",
+          "props": {
+            "State": "Filled",
+            "Error": "True"
+          }
+        },
+        {
+          "id": "113:44718",
+          "props": {
+            "State": "Disabled",
+            "Error": "False"
+          }
+        },
+        {
+          "id": "113:44764",
+          "props": {
+            "State": "Disabled",
+            "Error": "True"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TextArea",
+      "id": "3870:5135",
+      "key": "8910dfe033a5b38c47de24017c9f599619f4edbc",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "113:44674",
+          "props": {
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ContactForm",
+      "id": "3891:5122",
+      "key": "c2288cf1a7726d1ffe8cc82e6458b94476b86322",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3891:5123",
+          "props": {
+            "Device": "Desktop"
+          }
+        },
+        {
+          "id": "3891:8680",
+          "props": {
+            "Device": "Device3"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.NavbarItem",
+      "id": "639:15097",
+      "key": "3daf13a8506d5cb6954f6472319c90bcd7987a07",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:15098",
+          "props": {
+            "Full-width": "False",
+            "Current": "True",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "639:15102",
+          "props": {
+            "Full-width": "False",
+            "Current": "True",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "639:15106",
+          "props": {
+            "Full-width": "False",
+            "Current": "True",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "639:15110",
+          "props": {
+            "Full-width": "False",
+            "Current": "False",
+            "State": "Focus"
+          }
+        },
+        {
+          "id": "639:15114",
+          "props": {
+            "Full-width": "False",
+            "Current": "False",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "639:15118",
+          "props": {
+            "Full-width": "False",
+            "Current": "False",
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Navbar",
+      "id": "3870:5447",
+      "key": "97eea16a32c5b3690931883dbb59c6cbeca9caf7",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:15252",
+          "props": {
+            "Device": "Desktop"
+          }
+        },
+        {
+          "id": "4025:3493",
+          "props": {
+            "Device": "Mobile"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.SidebarItem",
+      "id": "639:15869",
+      "key": "02199b47479c048dabf8671db7b03d5354777303",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:15870",
+          "props": {
+            "Current": "False",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "639:17047",
+          "props": {
+            "Current": "True",
+            "State": "Default"
+          }
+        },
+        {
+          "id": "639:15877",
+          "props": {
+            "Current": "False",
+            "State": "Hover"
+          }
+        },
+        {
+          "id": "639:17052",
+          "props": {
+            "Current": "True",
+            "State": "Hover"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sidebar",
+      "id": "3870:5484",
+      "key": "148f054a65146f93bc9216c171b00db40a467b25",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "639:17618",
+          "props": {
+            "State": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.SegmentedItem",
+      "id": "3883:5860",
+      "key": "eccfc52094a2957604f8f7eebec8c1a6bab95646",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3883:5861",
+          "props": {
+            "State": "active",
+            "Size": "Lg",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:5868",
+          "props": {
+            "State": "hover",
+            "Size": "Lg",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:5875",
+          "props": {
+            "State": "default",
+            "Size": "Lg",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:5882",
+          "props": {
+            "State": "active",
+            "Size": "Sm",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:5889",
+          "props": {
+            "State": "hover",
+            "Size": "Sm",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:5896",
+          "props": {
+            "State": "default",
+            "Size": "Sm",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:6226",
+          "props": {
+            "State": "active",
+            "Size": "Lg",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:6233",
+          "props": {
+            "State": "hover",
+            "Size": "Lg",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:6240",
+          "props": {
+            "State": "default",
+            "Size": "Lg",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:6247",
+          "props": {
+            "State": "active",
+            "Size": "Sm",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:6254",
+          "props": {
+            "State": "hover",
+            "Size": "Sm",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:6261",
+          "props": {
+            "State": "default",
+            "Size": "Sm",
+            "Style": "Dark"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Segmented",
+      "id": "3883:5903",
+      "key": "2b986611514504f2618d6889d909515ca40e9aa4",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "3883:5904",
+          "props": {
+            "Device": "Desktop",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:6380",
+          "props": {
+            "Device": "Desktop",
+            "Style": "Dark"
+          }
+        },
+        {
+          "id": "3883:5912",
+          "props": {
+            "Device": "Mobile",
+            "Style": "Light"
+          }
+        },
+        {
+          "id": "3883:6564",
+          "props": {
+            "Device": "Mobile",
+            "Style": "Dark"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.TableCells",
+      "id": "113:46705",
+      "key": "331d664be953ae1e6bd69af43e196992c1d03819",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "113:46730",
+          "props": {
+            "Type": "Text Secondary Cell",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "113:46732",
+          "props": {
+            "Type": "Text Secondary Cell",
+            "Background": "White"
+          }
+        },
+        {
+          "id": "113:46734",
+          "props": {
+            "Type": "Title Cell",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "113:46736",
+          "props": {
+            "Type": "Title Cell",
+            "Background": "White"
+          }
+        },
+        {
+          "id": "113:46716",
+          "props": {
+            "Type": "w/ Avatar",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "113:46721",
+          "props": {
+            "Type": "w/ Avatar",
+            "Background": "White"
+          }
+        },
+        {
+          "id": "113:46706",
+          "props": {
+            "Type": "Badge",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "113:46708",
+          "props": {
+            "Type": "Badge",
+            "Background": "White"
+          }
+        },
+        {
+          "id": "123:49445",
+          "props": {
+            "Type": "Dropdown",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "123:49447",
+          "props": {
+            "Type": "Dropdown",
+            "Background": "White"
+          }
+        },
+        {
+          "id": "123:49018",
+          "props": {
+            "Type": "Text Primary Cell",
+            "Background": "Gray"
+          }
+        },
+        {
+          "id": "123:49020",
+          "props": {
+            "Type": "Text Primary Cell",
+            "Background": "White"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".baseComponents/.TableHeader",
+      "id": "3870:4990",
+      "key": "ba031b471f9f5a2c43dfed8bdbc0f500ae0405c8",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "113:46738",
+          "props": {
+            "Property 1": "Table Header"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "id": "123:50704",
+      "key": "8201aecc000a32735d123f3835de2b00e54d041f",
+      "page": "💠 · Components",
+      "variants": [
+        {
+          "id": "123:50699",
+          "props": {
+            "Type": "Basic"
+          }
+        },
+        {
+          "id": "123:50698",
+          "props": {
+            "Type": "Full-width"
+          }
+        },
+        {
+          "id": "123:50700",
+          "props": {
+            "Type": "Striped rows"
+          }
+        },
+        {
+          "id": "123:50701",
+          "props": {
+            "Type": "w/ Avatar"
+          }
+        },
+        {
+          "id": "123:50703",
+          "props": {
+            "Type": "w/ Grid"
+          }
+        },
+        {
+          "id": "123:50702",
+          "props": {
+            "Type": "w/ Dropdowns"
+          }
+        }
+      ]
+    },
+    {
+      "name": "icon",
+      "id": "1813:18694",
+      "key": "cce06c2f45c1f66f1cd11b4366a50b1aa9b02f76",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "1813:18695",
+          "props": {
+            "↳  Size": "12"
+          }
+        },
+        {
+          "id": "1813:18697",
+          "props": {
+            "↳  Size": "16"
+          }
+        },
+        {
+          "id": "1813:18699",
+          "props": {
+            "↳  Size": "20"
+          }
+        },
+        {
+          "id": "1813:18701",
+          "props": {
+            "↳  Size": "24"
+          }
+        },
+        {
+          "id": "1813:18703",
+          "props": {
+            "↳  Size": "32"
+          }
+        },
+        {
+          "id": "1813:18705",
+          "props": {
+            "↳  Size": "36"
+          }
+        },
+        {
+          "id": "1813:18707",
+          "props": {
+            "↳  Size": "40"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Partners Logos",
+      "id": "3909:7868",
+      "key": "a4377e251074cf4f531b54bebe347cab1b547780",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "3909:7869",
+          "props": {
+            "type": "Klepierre"
+          }
+        },
+        {
+          "id": "3909:7873",
+          "props": {
+            "type": "Westfield"
+          }
+        },
+        {
+          "id": "3909:7876",
+          "props": {
+            "type": "LeroyMerlin"
+          }
+        },
+        {
+          "id": "3909:7881",
+          "props": {
+            "type": "type8"
+          }
+        },
+        {
+          "id": "3909:7887",
+          "props": {
+            "type": "Ratp"
+          }
+        },
+        {
+          "id": "3909:7898",
+          "props": {
+            "type": "Schiphol"
+          }
+        },
+        {
+          "id": "3909:7901",
+          "props": {
+            "type": "Decathlon"
+          }
+        },
+        {
+          "id": "3909:7904",
+          "props": {
+            "type": "Aéroport"
+          }
+        },
+        {
+          "id": "3909:7921",
+          "props": {
+            "type": "Partouche"
+          }
+        },
+        {
+          "id": "3909:7945",
+          "props": {
+            "type": "Marseille"
+          }
+        },
+        {
+          "id": "3909:7974",
+          "props": {
+            "type": "Roland garros"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flags",
+      "id": "3891:7319",
+      "key": "69bf98c9069100a4b4a6218810f2422f23cbd0a8",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "3891:7320",
+          "props": {
+            "Type": "South Africa"
+          }
+        },
+        {
+          "id": "3891:7322",
+          "props": {
+            "Type": "Germany"
+          }
+        },
+        {
+          "id": "3891:7324",
+          "props": {
+            "Type": "Australia"
+          }
+        },
+        {
+          "id": "3891:7326",
+          "props": {
+            "Type": "Austria"
+          }
+        },
+        {
+          "id": "3891:7328",
+          "props": {
+            "Type": "Belgium"
+          }
+        },
+        {
+          "id": "3891:7330",
+          "props": {
+            "Type": "Canada"
+          }
+        },
+        {
+          "id": "3891:7332",
+          "props": {
+            "Type": "Denmark"
+          }
+        },
+        {
+          "id": "3891:7334",
+          "props": {
+            "Type": "Spain"
+          }
+        },
+        {
+          "id": "3891:7336",
+          "props": {
+            "Type": "USA"
+          }
+        },
+        {
+          "id": "3891:7338",
+          "props": {
+            "Type": "Finland"
+          }
+        },
+        {
+          "id": "3891:7340",
+          "props": {
+            "Type": "France"
+          }
+        },
+        {
+          "id": "3891:7342",
+          "props": {
+            "Type": "Greece"
+          }
+        },
+        {
+          "id": "3891:7344",
+          "props": {
+            "Type": "Hungary"
+          }
+        },
+        {
+          "id": "3891:7346",
+          "props": {
+            "Type": "India"
+          }
+        },
+        {
+          "id": "3891:7348",
+          "props": {
+            "Type": "Ireland"
+          }
+        },
+        {
+          "id": "3891:7350",
+          "props": {
+            "Type": "Island"
+          }
+        },
+        {
+          "id": "3891:7352",
+          "props": {
+            "Type": "Italy"
+          }
+        },
+        {
+          "id": "3891:7354",
+          "props": {
+            "Type": "Japan"
+          }
+        },
+        {
+          "id": "3891:7356",
+          "props": {
+            "Type": "Kazakhstan"
+          }
+        },
+        {
+          "id": "3891:7358",
+          "props": {
+            "Type": "Lithuania"
+          }
+        },
+        {
+          "id": "3891:7360",
+          "props": {
+            "Type": "Luxembourg"
+          }
+        },
+        {
+          "id": "3891:7362",
+          "props": {
+            "Type": "Malta"
+          }
+        },
+        {
+          "id": "3891:7364",
+          "props": {
+            "Type": "Marocco"
+          }
+        },
+        {
+          "id": "3891:7366",
+          "props": {
+            "Type": "Mexico"
+          }
+        },
+        {
+          "id": "3891:7368",
+          "props": {
+            "Type": "Norway"
+          }
+        },
+        {
+          "id": "3891:7370",
+          "props": {
+            "Type": "New Zealand"
+          }
+        },
+        {
+          "id": "3891:7372",
+          "props": {
+            "Type": "Netherlands"
+          }
+        },
+        {
+          "id": "3891:7374",
+          "props": {
+            "Type": "Poland"
+          }
+        },
+        {
+          "id": "3891:7376",
+          "props": {
+            "Type": "Puerto Rico"
+          }
+        },
+        {
+          "id": "3891:7378",
+          "props": {
+            "Type": "Portugal"
+          }
+        },
+        {
+          "id": "3891:7380",
+          "props": {
+            "Type": "Czech Republic"
+          }
+        },
+        {
+          "id": "3891:7382",
+          "props": {
+            "Type": "UK"
+          }
+        },
+        {
+          "id": "3891:7384",
+          "props": {
+            "Type": "Russia"
+          }
+        },
+        {
+          "id": "3891:7386",
+          "props": {
+            "Type": "Andorra"
+          }
+        },
+        {
+          "id": "3891:7388",
+          "props": {
+            "Type": "Singapore"
+          }
+        },
+        {
+          "id": "3891:7390",
+          "props": {
+            "Type": "Slovakia"
+          }
+        },
+        {
+          "id": "3891:7392",
+          "props": {
+            "Type": "Slovenia"
+          }
+        },
+        {
+          "id": "3891:7394",
+          "props": {
+            "Type": "Switzerland"
+          }
+        },
+        {
+          "id": "3891:7396",
+          "props": {
+            "Type": "Sweden"
+          }
+        },
+        {
+          "id": "3891:7398",
+          "props": {
+            "Type": "Raiwan"
+          }
+        },
+        {
+          "id": "3891:7400",
+          "props": {
+            "Type": "Turkey"
+          }
+        },
+        {
+          "id": "3891:7402",
+          "props": {
+            "Type": "Ukrain"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rating Stars",
+      "id": "3909:7799",
+      "key": "a2462c59b1a906e59448c678ccb36309530d813e",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "3909:7800",
+          "props": {
+            "Stae": "Default"
+          }
+        },
+        {
+          "id": "3909:7802",
+          "props": {
+            "Stae": "Half"
+          }
+        },
+        {
+          "id": "3909:7806",
+          "props": {
+            "Stae": "Almost Full"
+          }
+        },
+        {
+          "id": "3909:7810",
+          "props": {
+            "Stae": "Full"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Icon RS",
+      "id": "4025:5347",
+      "key": "68d0f46e3667b363a35722cc245a9ba7f5fc3b28",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "4041:5059",
+          "props": {
+            "Property 1": "facebook"
+          }
+        },
+        {
+          "id": "4025:5344",
+          "props": {
+            "Property 1": "x"
+          }
+        },
+        {
+          "id": "4025:5345",
+          "props": {
+            "Property 1": "Linkedin"
+          }
+        },
+        {
+          "id": "4025:5346",
+          "props": {
+            "Property 1": "Youtube"
+          }
+        },
+        {
+          "id": "4041:5062",
+          "props": {
+            "Property 1": "Discord"
+          }
+        },
+        {
+          "id": "4041:5070",
+          "props": {
+            "Property 1": "Variant6"
+          }
+        },
+        {
+          "id": "4041:5249",
+          "props": {
+            "Property 1": "Tiktok"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Icon OS",
+      "id": "4025:5302",
+      "key": "6276a1827d017966be8a69cefe5bb31a08c15f5a",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "4025:5303",
+          "props": {
+            "Property 1": "Google"
+          }
+        },
+        {
+          "id": "4025:5309",
+          "props": {
+            "Property 1": "Apple"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Logo",
+      "id": "3896:5785",
+      "key": "7d06e895acd0a200053ccbcf12e916a69032b558",
+      "page": "📘 · Foundations",
+      "variants": [
+        {
+          "id": "3896:5786",
+          "props": {
+            "Type": "Default",
+            "Theme": "White"
+          }
+        },
+        {
+          "id": "3896:5788",
+          "props": {
+            "Type": "Icon",
+            "Theme": "White"
+          }
+        },
+        {
+          "id": "3896:5790",
+          "props": {
+            "Type": "Default",
+            "Theme": "Dark"
+          }
+        },
+        {
+          "id": "3896:5792",
+          "props": {
+            "Type": "Icon",
+            "Theme": "Dark"
+          }
+        }
+      ]
+    },
+    {
+      "name": ".listItem",
+      "id": "248:28135",
+      "key": "74a411d089e1ec711331ffa614605b6594b6015c",
+      "page": "⚒️ · Utilities",
+      "variants": [
+        {
+          "id": "231:25455",
+          "props": {
+            "Size": "Default"
+          }
+        },
+        {
+          "id": "248:28134",
+          "props": {
+            "Size": "Large"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sticker Sheet Top",
+      "id": "3867:5156",
+      "key": "fd97096422f7cf20668dc82349c4a72a38cd312a",
+      "page": "⚒️ · Utilities",
+      "variants": [
+        {
+          "id": "158:14187",
+          "props": {
+            "Property 1": "Default"
+          }
+        },
+        {
+          "id": "3867:5157",
+          "props": {
+            "Property 1": "Variant2"
+          }
+        }
+      ]
+    }
+  ]
+}

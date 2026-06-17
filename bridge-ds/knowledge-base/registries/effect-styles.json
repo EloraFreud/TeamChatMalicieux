@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-17T13:44:43.866Z",
+  "source": "figma-console-mcp",
+  "figmaFileKey": "zNPayJbVf70rk78IQZXeW9",
+  "styles": [
+    {
+      "key": "5d8200d9640b76227bad38a42b420a6c49b72c8d",
+      "name": "Buttons/focus-primary",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3805:12612"
+            }
+          },
+          "color": {
+            "r": 0.3764705955982208,
+            "g": 0.21176470816135406,
+            "b": 0.9607843160629272,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:102:499"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    },
+    {
+      "key": "383eae7ffa188f7c9352b8311362219adb062283",
+      "name": "Buttons/inner-shadow",
+      "effects": [
+        {
+          "type": "INNER_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.15000000596046448
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "ea5c1d19308d5b2b0f23b7f6cba32dd74f71db15",
+      "name": "Buttons/focus-secondary",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3807:12626"
+            }
+          },
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.9019607901573181,
+            "b": 0.5490196347236633,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:102:499"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    },
+    {
+      "key": "b9a164af0fafaf79f70a7d18b8b749625daf6bbd",
+      "name": "Box Shadow/shadow-xs",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13150"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.07999999821186066
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "0494d2d86e3019aad79cbb8c834f32b8ede0bf4d",
+      "name": "Box Shadow/shadow-sm",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 3.5999999046325684,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13151"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "e2f7be7603a66fe574045b2b2d01b69dee0b5e41",
+      "name": "Box Shadow/shadow-md",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13149"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.11999999731779099
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "ef249b6ecdf434dadd4fe9d91a09624ece54d31c",
+      "name": "Box Shadow/shadow-lg",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13148"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.14000000059604645
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "c9debcf64b2506ab00854e50caac2310ebd72eff",
+      "name": "Box Shadow/shadow-xl",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13152"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.1599999964237213
+          },
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": -6,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "bb5850afac636ce5cfe867c5d7291e8083442431",
+      "name": "Box Shadow/shadow-2xl",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 50,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1853:13147"
+            }
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 25
+          },
+          "spread": -12,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "key": "519b1d86649b00636ae1f2d51f726a6a5e3f9af1",
+      "name": "Blur/blur-none",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "8bff09193a0f150dcc84dfbe446c4151ecbfb78c",
+      "name": "Blur/blur-sm",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "08c24732bf6620ba1f94269a57b33a43a92dfc93",
+      "name": "Blur/blur",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 8,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "39617a427a5990f04c2852fd68eca8bcce4eb1fa",
+      "name": "Blur/blur-md",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 12,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "361c69774affdd0695b83977864c255771ef6144",
+      "name": "Blur/blur-lg",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 16,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "a50d980ed247578fbfef6f53341a6ce9e34ab30b",
+      "name": "Blur/blur-xl",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 24,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "33834b5770ad9d492cf1b27f5e83b15fdd8320c5",
+      "name": "Blur/blur-2xl",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 40,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "8fcd59d2336184356dfe46d70761f4c0f2099779",
+      "name": "Blur/blur-3xml",
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 64,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "e70dc1782829fbd547a6f8b44a1baf14bef869f8",
+      "name": "Backdrop Blur/backdrop-blur-none",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "68daab17876f2b72047beb0354c043bc703531c1",
+      "name": "Backdrop Blur/backdrop-blur-sm",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "e1c9f98fec0c460547e581095c4b396745c8815a",
+      "name": "Backdrop Blur/backdrop-blur",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 8,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "2fdebe05e5e3f9909a1a4d2b63c37a83024d419c",
+      "name": "Backdrop Blur/backdrop-blur-md",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 12,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "810be41e394c873a61bde2b947d09499f7e2a1d4",
+      "name": "Backdrop Blur/backdrop-blur-lg",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 16,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "e0f861347c45cb6343c8498da26f8a7bb0d7c3be",
+      "name": "Backdrop Blur/backdrop-blur-xl",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 24,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "bfaa18b4fab343dc67757b9bfc6c01106efaf853",
+      "name": "Backdrop Blur/backdrop-blur-2xl",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 40,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "key": "941e20fddae10783a20b1cdad35af1f38c0d6afb",
+      "name": "Backdrop Blur/backdrop-blur-3xl",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 64,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Claude Code — config machine-locale (allowlist de permissions, pas de secret mais local)
+.claude/settings.local.json
+
+# Bridge — artefacts runtime locaux
+.bridge/last-sync-report.md
+/tmp/bridge-*
+
+# Node (track code à venir : bridge-ui/)
+node_modules/
