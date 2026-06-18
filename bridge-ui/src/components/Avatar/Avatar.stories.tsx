@@ -41,3 +41,22 @@ export const CircularVsRounded: Story = {
     </div>
   ),
 };
+
+// Full Type × Size matrix (initials + image rows).
+export const Overview: Story = {
+  render: () => (
+    <div className="flex flex-col gap-5">
+      {(['circular', 'rounded'] as const).map((type) => (
+        <div key={type} className="flex items-end gap-4">
+          <span className="w-16 text-paragraph-small capitalize text-content-secondary">{type}</span>
+          {SIZES.map((s) => (
+            <Avatar key={`i-${s}`} type={type} size={s} initials="TW" />
+          ))}
+          {SIZES.map((s) => (
+            <Avatar key={`img-${s}`} type={type} size={s} src={SAMPLE} alt="Sample" />
+          ))}
+        </div>
+      ))}
+    </div>
+  ),
+};
