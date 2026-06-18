@@ -60,13 +60,38 @@ export const IconOnly: Story = {
   ),
 };
 
-export const Disabled: Story = {
+// Full Type × State matrix. Hover/Press/Focus are forced via the pseudo-states addon
+// so every Figma state is documented statically.
+const STATES = [
+  { label: 'Default', cls: '', disabled: false },
+  { label: 'Hover', cls: 'pseudo-hover', disabled: false },
+  { label: 'Pressed', cls: 'pseudo-press', disabled: false },
+  { label: 'Focus', cls: 'pseudo-focus', disabled: false },
+  { label: 'Disabled', cls: '', disabled: true },
+];
+
+export const States: Story = {
+  parameters: {
+    pseudo: {
+      hover: ['.pseudo-hover'],
+      active: ['.pseudo-press'],
+      focusVisible: ['.pseudo-focus'],
+    },
+  },
   render: () => (
-    <div className="flex flex-wrap items-center gap-3">
+    <div className="flex flex-col gap-5">
       {VARIANTS.map((v) => (
-        <Button key={v} variant={v} disabled>
-          Button text
-        </Button>
+        <div key={v} className="flex items-end gap-5">
+          <span className="w-20 text-paragraph-small capitalize text-content-secondary">{v}</span>
+          {STATES.map((s) => (
+            <div key={s.label} className="flex flex-col items-center gap-1.5">
+              <Button variant={v} size="base" className={s.cls} disabled={s.disabled}>
+                Button text
+              </Button>
+              <span className="text-paragraph-tiny text-content-tertiary">{s.label}</span>
+            </div>
+          ))}
+        </div>
       ))}
     </div>
   ),
