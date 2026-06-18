@@ -13,10 +13,16 @@ export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement
 export function Checkbox({ label, description, id, className, ...rest }: CheckboxProps) {
   const autoId = useId();
   const inputId = id ?? autoId;
+  // Center the control on a single line; top-align (with a nudge) when a description
+  // wraps onto multiple lines.
+  const hasDescription = description != null;
 
   return (
-    <label htmlFor={inputId} className={cn('flex items-start gap-3', className)}>
-      <span className="relative mt-0.5 inline-flex shrink-0">
+    <label
+      htmlFor={inputId}
+      className={cn('flex gap-3', hasDescription ? 'items-start' : 'items-center', className)}
+    >
+      <span className={cn('relative inline-flex shrink-0', hasDescription && 'mt-0.5')}>
         <input
           id={inputId}
           type="checkbox"

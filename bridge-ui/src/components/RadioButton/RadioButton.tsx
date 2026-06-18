@@ -13,10 +13,14 @@ export interface RadioButtonProps extends Omit<InputHTMLAttributes<HTMLInputElem
 export function RadioButton({ label, description, id, className, ...rest }: RadioButtonProps) {
   const autoId = useId();
   const inputId = id ?? autoId;
+  const hasDescription = description != null;
 
   return (
-    <label htmlFor={inputId} className={cn('flex items-start gap-3', className)}>
-      <span className="relative mt-0.5 inline-flex shrink-0">
+    <label
+      htmlFor={inputId}
+      className={cn('flex gap-3', hasDescription ? 'items-start' : 'items-center', className)}
+    >
+      <span className={cn('relative inline-flex shrink-0', hasDescription && 'mt-0.5')}>
         <input
           id={inputId}
           type="radio"
