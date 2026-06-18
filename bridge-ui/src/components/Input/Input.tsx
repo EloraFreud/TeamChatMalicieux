@@ -7,6 +7,8 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   helperText?: ReactNode;
   leadingIcon?: ReactNode;
   trailingIcon?: ReactNode;
+  /** Leading addon inside the field, before the input (e.g. a country selector for phone). */
+  leadingAddon?: ReactNode;
   className?: string;
 }
 
@@ -20,6 +22,7 @@ export function Input({
   helperText,
   leadingIcon,
   trailingIcon,
+  leadingAddon,
   id,
   className,
   ...rest
@@ -35,7 +38,8 @@ export function Input({
           {required && <span className="text-content-extensions-error"> *</span>}
         </label>
       )}
-      <div className="flex h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary px-4 focus-within:ring-2 focus-within:ring-content-brand-brand">
+      <div className="flex min-h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary px-4 py-2 focus-within:ring-2 focus-within:ring-content-brand-brand">
+        {leadingAddon != null && <span className="flex shrink-0 items-center gap-2">{leadingAddon}</span>}
         {leadingIcon != null && <span className="shrink-0 text-content-tertiary">{leadingIcon}</span>}
         <input
           id={inputId}
