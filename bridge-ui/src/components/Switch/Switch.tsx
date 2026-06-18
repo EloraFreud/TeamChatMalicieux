@@ -62,7 +62,7 @@ export function Switch({
       <span
         className={cn(
           'h-4 w-4 rounded-full border border-border-primary bg-background-primary transition-transform',
-          on ? 'translate-x-3' : 'translate-x-0',
+          on ? 'translate-x-2.5' : 'translate-x-0',
         )}
       />
     </button>
@@ -75,7 +75,7 @@ export function Switch({
   const labelBlock = (
     <span className="flex flex-col gap-1">
       {label != null && (
-        <label htmlFor={switchId} className="text-label-small text-content-primary">
+        <label htmlFor={switchId} className="font-display text-label-small text-content-primary">
           {label}
         </label>
       )}
