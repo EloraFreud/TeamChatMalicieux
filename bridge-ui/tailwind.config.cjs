@@ -12,6 +12,7 @@ module.exports = {
       spacing: tokens.spacing,
       borderRadius: tokens.borderRadius,
       fontSize: tokens.fontSize,
+      boxShadow: tokens.boxShadow,
       fontFamily: {
         // Real families from text-styles.json: Cal Sans (display/heading/label), DM Sans (body).
         display: ['Cal Sans', 'DM Sans', 'system-ui', 'sans-serif'],

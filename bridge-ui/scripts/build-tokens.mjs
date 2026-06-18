@@ -55,6 +55,16 @@ const readReg = (file, key) => {
 
 const variables = readReg('variables.json', 'variables');
 const textStyles = readReg('text-styles.json', 'styles');
+// effect styles are optional — absence shouldn't fail the token build.
+const effectStyles = (() => {
+  const p = path.join(REG, 'effect-styles.json');
+  if (!fs.existsSync(p)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8')).styles || [];
+  } catch {
+    return [];
+  }
+})();
 const byId = new Map(variables.map((v) => [v.id, v]));
 
 // ---- helpers ----------------------------------------------------------------
@@ -185,6 +195,34 @@ for (const s of textStyles) {
   twFontSize[key] = lh ? [size, { lineHeight: lh }] : [size];
 }
 
+// ---- effects -> boxShadow ---------------------------------------------------
+// DROP_SHADOW / INNER_SHADOW become CSS box-shadow tokens. Blur/Backdrop-blur are
+// filters, not box-shadow, so they're skipped here.
+const rgba = (c) => {
+  const r = Math.round((c.r ?? 0) * 255);
+  const g = Math.round((c.g ?? 0) * 255);
+  const b = Math.round((c.b ?? 0) * 255);
+  const a = c.a ?? 1;
+  return `rgba(${r}, ${g}, ${b}, ${Number(a.toFixed(3))})`;
+};
+const shadowCss = (effects) => {
+  const parts = [];
+  for (const e of effects || []) {
+    if (e.visible === false) continue;
+    if (e.type !== 'DROP_SHADOW' && e.type !== 'INNER_SHADOW') continue;
+    const inset = e.type === 'INNER_SHADOW' ? 'inset ' : '';
+    const x = e.offset?.x ?? 0;
+    const y = e.offset?.y ?? 0;
+    parts.push(`${inset}${x}px ${y}px ${e.radius ?? 0}px ${e.spread ?? 0}px ${rgba(e.color || { r: 0, g: 0, b: 0, a: 0 })}`);
+  }
+  return parts.length ? parts.join(', ') : null;
+};
+const twShadow = {};
+for (const s of effectStyles) {
+  const css = shadowCss(s.effects);
+  if (css) twShadow[slug(s.name)] = css;
+}
+
 // ---- emit -------------------------------------------------------------------
 const stylesDir = path.join(UI_ROOT, 'src', 'styles');
 const tokensDir = path.join(UI_ROOT, 'src', 'tokens');
@@ -203,6 +241,7 @@ const theme = {
   spacing: twSpacing,
   borderRadius: twRadius,
   fontSize: twFontSize,
+  boxShadow: twShadow,
 };
 fs.writeFileSync(
   path.join(tokensDir, 'tailwind-tokens.cjs'),
@@ -223,6 +262,7 @@ console.log(
         spacing: Object.keys(twSpacing).length,
         radius: Object.keys(twRadius).length,
         fontSize: Object.keys(twFontSize).length,
+        boxShadow: Object.keys(twShadow).length,
       },
     },
     null,
