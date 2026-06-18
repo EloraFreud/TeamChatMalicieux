@@ -39,3 +39,14 @@ export const OnByDefault: Story = {
 export const Disabled: Story = {
   args: { label: 'Locked setting', disabled: true, defaultChecked: true },
 };
+
+export const States: Story = {
+  render: () => (
+    <div className="flex flex-col gap-4">
+      <Switch label="Off" />
+      <Switch label="On" defaultChecked />
+      <Switch label="Disabled (off)" disabled />
+      <Switch label="Disabled (on)" disabled defaultChecked />
+    </div>
+  ),
+};
