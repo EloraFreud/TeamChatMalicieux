@@ -362,5 +362,16 @@ module.exports = {
         "lineHeight": "19px"
       }
     ]
+  },
+  "boxShadow": {
+    "buttons-focus-primary": "0px 0px 0px 4px rgba(96, 54, 245, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1), 0px 1px 2px 0px rgba(0, 0, 0, 0.05)",
+    "buttons-inner-shadow": "inset 0px 2px 0px 0px rgba(255, 255, 255, 0.15)",
+    "buttons-focus-secondary": "0px 0px 0px 4px rgba(1, 230, 140, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1), 0px 1px 2px 0px rgba(0, 0, 0, 0.05)",
+    "box-shadow-shadow-xs": "0px 1px 2px 0px rgba(0, 0, 0, 0.08)",
+    "box-shadow-shadow-sm": "0px 1px 3.5999999046325684px 1px rgba(0, 0, 0, 0.1)",
+    "box-shadow-shadow-md": "0px 2px 4px -2px rgba(0, 0, 0, 0.12)",
+    "box-shadow-shadow-lg": "0px 4px 6px -4px rgba(0, 0, 0, 0.14)",
+    "box-shadow-shadow-xl": "0px 8px 10px -6px rgba(0, 0, 0, 0.16)",
+    "box-shadow-shadow-2xl": "0px 25px 50px -12px rgba(0, 0, 0, 0.2)"
   }
 };

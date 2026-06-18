@@ -6,6 +6,11 @@ const Plus = () => (
     <path d="M8 3v10M3 8h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
   </svg>
 );
+const Arrow = () => (
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
@@ -50,7 +55,7 @@ export const AllSizes: Story = {
 };
 
 export const WithIcons: Story = {
-  args: { iconLeading: <Plus />, children: 'New report' },
+  args: { iconLeading: <Plus />, iconTrailing: <Arrow />, children: 'New report' },
 };
 
 export const IconOnly: Story = {

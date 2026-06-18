@@ -17,12 +17,12 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 // Tokens: Components/Buttons/{Type}/{Background|Border}/{State}, text Content/*.
 const VARIANT: Record<ButtonVariant, string> = {
   primary: cn(
-    'border-components-buttons-primary-border-default bg-components-buttons-primary-background-default text-content-inverseprimary',
+    'border-components-buttons-primary-border-default bg-components-buttons-primary-background-default text-content-inverseprimary shadow-buttons-inner-shadow',
     'hover:bg-components-buttons-primary-background-hover active:bg-components-buttons-primary-background-pressed',
     'disabled:border-components-buttons-primary-border-disabled disabled:bg-components-buttons-primary-background-disabled',
   ),
   secondary: cn(
-    'border-components-buttons-secondary-border-default bg-components-buttons-secondary-background-default text-content-inverseprimary',
+    'border-components-buttons-secondary-border-default bg-components-buttons-secondary-background-default text-content-inverseprimary shadow-buttons-inner-shadow',
     'hover:bg-components-buttons-secondary-background-hover active:bg-components-buttons-secondary-background-pressed',
     'disabled:border-components-buttons-secondary-border-disabled disabled:bg-components-buttons-secondary-background-disabled',
   ),
