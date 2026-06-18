@@ -34,3 +34,23 @@ export const AllColors: Story = {
 };
 
 export const WithoutIcon: Story = { args: { color: 'green', icon: undefined } };
+
+// Figma Default/Hover (hover adds a subtle Background/HoverOverlay) — forced via pseudo-states.
+export const States: Story = {
+  parameters: { pseudo: { hover: ['.pseudo-hover'] } },
+  render: () => (
+    <div className="flex items-start gap-6">
+      {[
+        ['Default', ''],
+        ['Hover', 'pseudo-hover'],
+      ].map(([label, cls]) => (
+        <div key={label} className="flex flex-col items-center gap-1.5">
+          <Badge color="blue" icon={<Dot />} className={cls}>
+            badge
+          </Badge>
+          <span className="text-paragraph-tiny text-content-tertiary">{label}</span>
+        </div>
+      ))}
+    </div>
+  ),
+};

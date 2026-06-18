@@ -45,7 +45,9 @@ export function Badge({ color = 'zinc', icon, children, className }: BadgeProps)
   return (
     <span
       className={cn(
-        'inline-flex items-center gap-1 rounded-md px-2 py-1 text-paragraph-tiny',
+        'relative inline-flex items-center gap-1 overflow-hidden rounded-md px-2 py-1 text-paragraph-tiny',
+        // Figma Hover = a subtle Background/HoverOverlay layer on top of the tag color.
+        'after:pointer-events-none after:absolute after:inset-0 after:bg-background-hoveroverlay after:opacity-0 after:transition-opacity hover:after:opacity-100',
         COLOR[color],
         className,
       )}
