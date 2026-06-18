@@ -35,7 +35,7 @@ export function TextArea({
       )}
       <textarea
         id={inputId}
-        className="min-h-[117px] w-full rounded-lg border border-border-primary bg-background-primary px-3 py-3 text-paragraph-base text-content-primary placeholder:text-content-tertiary focus:outline-none focus:ring-2 focus:ring-content-brand-brand"
+        className="min-h-[117px] w-full rounded-lg border border-border-primary bg-background-primary px-3 py-3 text-paragraph-base text-content-primary placeholder:text-content-tertiary focus:outline-none focus:ring-2 focus:ring-content-brand-brand disabled:cursor-not-allowed disabled:opacity-60"
         {...rest}
       />
       {helperText != null && (

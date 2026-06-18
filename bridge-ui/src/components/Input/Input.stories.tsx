@@ -72,3 +72,13 @@ export const Phone: Story = {
     </div>
   ),
 };
+
+export const States: Story = {
+  render: () => (
+    <div className="flex w-[420px] flex-col gap-5">
+      <Input label="Default" placeholder="Jane Doe" leadingIcon={<Mail />} />
+      <Input label="Filled" defaultValue="jane@doe.com" leadingIcon={<Mail />} />
+      <Input label="Disabled" placeholder="Jane Doe" leadingIcon={<Mail />} disabled />
+    </div>
+  ),
+};
