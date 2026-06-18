@@ -1,21 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { Link as LinkIcon, ArrowRight } from '@phosphor-icons/react';
 import { Text } from './Text';
 
-const Link = () => (
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-    <path
-      d="M6.5 9.5l3-3M7 4.5l.8-.8a2.5 2.5 0 013.5 3.5l-.8.8M9 11.5l-.8.8a2.5 2.5 0 01-3.5-3.5l.8-.8"
-      stroke="currentColor"
-      strokeWidth="1.3"
-      strokeLinecap="round"
-    />
-  </svg>
-);
-const Arrow = () => (
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
+const Link = () => <LinkIcon size={16} aria-hidden />;
+const Arrow = () => <ArrowRight size={16} aria-hidden />;
 
 const meta: Meta<typeof Text> = {
   title: 'Components/Text',

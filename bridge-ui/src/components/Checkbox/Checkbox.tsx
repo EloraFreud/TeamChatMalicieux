@@ -1,4 +1,5 @@
 import { useId, type InputHTMLAttributes, type ReactNode } from 'react';
+import { Check } from '@phosphor-icons/react';
 import { cn } from '../../lib/cn';
 
 export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'type'> {
@@ -34,14 +35,11 @@ export function Checkbox({ label, description, id, className, ...rest }: Checkbo
           )}
           {...rest}
         />
-        <svg
-          className="pointer-events-none absolute inset-0 hidden h-4 w-4 text-content-inverseprimary peer-checked:block"
-          viewBox="0 0 16 16"
-          fill="none"
+        <Check
+          weight="bold"
+          className="pointer-events-none absolute inset-0 m-auto hidden h-3 w-3 text-content-inverseprimary peer-checked:block"
           aria-hidden
-        >
-          <path d="M4 8.5l2.5 2.5L12 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        />
       </span>
       {(label != null || description != null) && (
         <span className="flex flex-col gap-1">

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { X } from '@phosphor-icons/react';
 import { cn } from '../../lib/cn';
 
 export interface ChipsProps {
@@ -32,9 +33,7 @@ export function Chips({ label, icon, onRemove, className }: ChipsProps) {
           aria-label="Remove"
           className="shrink-0 text-content-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-content-brand-brand"
         >
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-            <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-          </svg>
+          <X size={16} aria-hidden />
         </button>
       )}
     </span>

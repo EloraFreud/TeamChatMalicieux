@@ -1,12 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { Circle } from '@phosphor-icons/react';
 import { Badge, type BadgeColor } from './Badge';
 
-// Small ring glyph standing in for the DS icon slot (inherits currentColor).
-const Dot = () => (
-  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
-    <circle cx="6" cy="6" r="4" stroke="currentColor" strokeWidth="1.5" />
-  </svg>
-);
+// Phosphor glyph standing in for the DS icon slot (inherits currentColor).
+const Dot = () => <Circle size={12} aria-hidden />;
 
 const meta: Meta<typeof Badge> = {
   title: 'Components/Badge',

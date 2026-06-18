@@ -1,11 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { Circle } from '@phosphor-icons/react';
 import { Chips } from './Chips';
 
-const Dot = () => (
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-    <circle cx="8" cy="8" r="5" stroke="currentColor" strokeWidth="1.5" />
-  </svg>
-);
+const Dot = () => <Circle size={16} aria-hidden />;
 
 const meta: Meta<typeof Chips> = {
   title: 'Components/Chips',

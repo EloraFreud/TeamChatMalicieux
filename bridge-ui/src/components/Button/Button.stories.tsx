@@ -1,16 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { Plus, ArrowRight } from '@phosphor-icons/react';
 import { Button, type ButtonVariant, type ButtonSize } from './Button';
-
-const Plus = () => (
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-    <path d="M8 3v10M3 8h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-  </svg>
-);
-const Arrow = () => (
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
-    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
@@ -55,7 +45,7 @@ export const AllSizes: Story = {
 };
 
 export const WithIcons: Story = {
-  args: { iconLeading: <Plus />, iconTrailing: <Arrow />, children: 'New report' },
+  args: { iconLeading: <Plus size={16} />, iconTrailing: <ArrowRight size={16} />, children: 'New report' },
 };
 
 export const IconOnly: Story = {
@@ -63,7 +53,7 @@ export const IconOnly: Story = {
     <div className="flex items-center gap-3">
       {VARIANTS.map((v) => (
         <Button key={v} variant={v} iconOnly aria-label="Add">
-          <Plus />
+          <Plus size={18} />
         </Button>
       ))}
     </div>
