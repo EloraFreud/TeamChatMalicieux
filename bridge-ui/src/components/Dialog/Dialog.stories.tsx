@@ -1,35 +1,26 @@
-import { useState } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Dialog } from './Dialog';
-import { Button } from '../Button';
 import { Checkbox } from '../Checkbox';
 
 const meta: Meta<typeof Dialog> = {
   title: 'Components/Dialog',
   component: Dialog,
+  parameters: { layout: 'padded' },
   args: {
-    title: 'Refund this payment?',
+    title: 'Are you sure you want to refund this payment?',
     description:
-      'The customer will be refunded the full amount. This action cannot be undone.',
+      'The refund will be reflected in the customer’s bank account 2 to 3 business days after processing.',
     confirmLabel: 'Refund',
     cancelLabel: 'Cancel',
+    onConfirm: () => {},
+    onCancel: () => {},
   },
 };
 export default meta;
 
 type Story = StoryObj<typeof Dialog>;
 
-export const Default: Story = {
-  render: (args) => {
-    const [open, setOpen] = useState(false);
-    return (
-      <>
-        <Button onClick={() => setOpen(true)}>Refund payment</Button>
-        <Dialog {...args} open={open} onOpenChange={setOpen} onConfirm={() => {}} />
-      </>
-    );
-  },
-};
+export const Default: Story = {};
 
 export const WithSlot: Story = {
   args: {
@@ -37,53 +28,20 @@ export const WithSlot: Story = {
     description: 'This will permanently remove the project and all of its data.',
     confirmLabel: 'Delete',
   },
-  render: (args) => {
-    const [open, setOpen] = useState(false);
-    const [confirmed, setConfirmed] = useState(false);
-    return (
-      <>
-        <Button variant="outline" onClick={() => setOpen(true)}>
-          Delete project
-        </Button>
-        <Dialog {...args} open={open} onOpenChange={setOpen} onConfirm={() => {}}>
-          <Checkbox
-            label="I understand this is permanent"
-            checked={confirmed}
-            onChange={(event) => setConfirmed(event.target.checked)}
-          />
-        </Dialog>
-      </>
-    );
-  },
+  render: (args) => (
+    <Dialog {...args}>
+      <Checkbox label="I understand this is permanent" />
+    </Dialog>
+  ),
 };
 
-export const Overview: Story = {
-  render: () => {
-    const [refundOpen, setRefundOpen] = useState(false);
-    const [deleteOpen, setDeleteOpen] = useState(false);
-    return (
-      <div className="flex flex-col items-start gap-3">
-        <Button onClick={() => setRefundOpen(true)}>Refund payment</Button>
-        <Dialog
-          open={refundOpen}
-          onOpenChange={setRefundOpen}
-          title="Refund this payment?"
-          description="The customer will be refunded the full amount. This action cannot be undone."
-          confirmLabel="Refund"
-          onConfirm={() => {}}
-        />
-        <Button variant="outline" onClick={() => setDeleteOpen(true)}>
-          Delete project
-        </Button>
-        <Dialog
-          open={deleteOpen}
-          onOpenChange={setDeleteOpen}
-          title="Delete project"
-          description="This will permanently remove the project and all of its data."
-          confirmLabel="Delete"
-          onConfirm={() => {}}
-        />
-      </div>
-    );
-  },
+// Modal composition: the Dialog card centered over a dim backdrop.
+export const AsModal: Story = {
+  parameters: { layout: 'fullscreen' },
+  render: (args) => (
+    <div className="relative flex h-[480px] items-center justify-center overflow-hidden bg-background-secondary">
+      <div className="absolute inset-0 bg-background-inverseprimary opacity-[0.64]" aria-hidden />
+      <Dialog {...args} className="relative z-10" />
+    </div>
+  ),
 };
