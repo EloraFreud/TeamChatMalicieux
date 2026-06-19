@@ -83,7 +83,7 @@ export function Dropdown({ trigger, items, align = 'start', className }: Dropdow
             id={menuId}
             role="menu"
             className={cn(
-              'absolute z-20 mt-2 flex min-w-[182px] flex-col rounded-xl border border-border-primary bg-background-secondary p-1 shadow-lg',
+              'absolute z-20 mt-2 flex min-w-[260px] flex-col rounded-xl border border-border-primary bg-background-secondary p-1 shadow-lg',
               align === 'end' ? 'right-0' : 'left-0',
             )}
           >
@@ -112,18 +112,18 @@ export function Dropdown({ trigger, items, align = 'start', className }: Dropdow
                   {entry.icon != null && (
                     <span className="shrink-0 text-content-secondary">{entry.icon}</span>
                   )}
-                  <span className="flex flex-col gap-0.5">
-                    <span className="font-display text-label-small text-content-primary">
+                  <span className="flex min-w-0 flex-col gap-0.5">
+                    <span className="truncate font-display text-label-small text-content-primary">
                       {entry.label}
                     </span>
                     {entry.description != null && (
-                      <span className="text-paragraph-tiny text-content-secondary">
+                      <span className="truncate text-paragraph-tiny text-content-secondary">
                         {entry.description}
                       </span>
                     )}
                   </span>
                   {entry.shortcut != null && (
-                    <span className="ml-auto text-paragraph-small text-content-secondary">
+                    <span className="ml-auto shrink-0 text-paragraph-small text-content-secondary">
                       {entry.shortcut}
                     </span>
                   )}
