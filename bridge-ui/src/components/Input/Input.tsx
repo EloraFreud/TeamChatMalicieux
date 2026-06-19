@@ -25,6 +25,7 @@ export function Input({
   leadingAddon,
   id,
   className,
+  disabled,
   ...rest
 }: InputProps) {
   const autoId = useId();
@@ -38,12 +39,18 @@ export function Input({
           {required && <span className="text-content-extensions-error"> *</span>}
         </label>
       )}
-      <div className="flex min-h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary px-4 py-2 focus-within:ring-2 focus-within:ring-content-brand-brand">
+      <div
+        className={cn(
+          'flex min-h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary px-4 py-2 focus-within:ring-2 focus-within:ring-content-brand-brand',
+          disabled && 'cursor-not-allowed opacity-60',
+        )}
+      >
         {leadingAddon != null && <span className="flex shrink-0 items-center gap-2">{leadingAddon}</span>}
         {leadingIcon != null && <span className="shrink-0 text-content-tertiary">{leadingIcon}</span>}
         <input
           id={inputId}
-          className="w-full bg-transparent text-paragraph-base text-content-primary placeholder:text-content-tertiary focus:outline-none"
+          disabled={disabled}
+          className="w-full bg-transparent text-paragraph-base text-content-primary placeholder:text-content-tertiary focus:outline-none disabled:cursor-not-allowed"
           {...rest}
         />
         {trailingIcon != null && <span className="shrink-0 text-content-tertiary">{trailingIcon}</span>}

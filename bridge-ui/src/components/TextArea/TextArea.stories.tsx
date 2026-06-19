@@ -22,3 +22,13 @@ export const Default: Story = {
     </div>
   ),
 };
+
+export const States: Story = {
+  render: () => (
+    <div className="flex w-[420px] flex-col gap-5">
+      <TextArea label="Default" placeholder="Jane Doe" />
+      <TextArea label="Filled" defaultValue="A few sentences about the project and what to expect." />
+      <TextArea label="Disabled" placeholder="Jane Doe" disabled />
+    </div>
+  ),
+};

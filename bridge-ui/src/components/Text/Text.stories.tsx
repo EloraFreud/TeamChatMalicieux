@@ -25,22 +25,24 @@ export const Code: Story = {
   args: { type: 'code', href: undefined, children: 'npm install' },
 };
 
-export const Matrix: Story = {
+// Type × State × Underline × Strong. Hover/Focus forced via the pseudo-states addon.
+export const States: Story = {
+  parameters: { pseudo: { hover: ['.pseudo-hover'], focusVisible: ['.pseudo-focus'] } },
   render: () => (
-    <div className="flex flex-col items-start gap-3">
-      <Text href="#" underline strong iconLeading={<Link />} iconTrailing={<Arrow />}>
-        Underline + Strong
-      </Text>
-      <Text href="#" underline iconLeading={<Link />} iconTrailing={<Arrow />}>
-        Underline
-      </Text>
-      <Text href="#" strong iconLeading={<Link />} iconTrailing={<Arrow />}>
-        Strong
-      </Text>
-      <Text href="#" iconLeading={<Link />} iconTrailing={<Arrow />}>
-        Default (hover me)
-      </Text>
-      <Text type="code">const x = 1</Text>
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col items-start gap-3">
+        <span className="text-paragraph-tiny uppercase tracking-wide text-content-tertiary">Text</span>
+        <Text href="#" iconLeading={<Link />} iconTrailing={<Arrow />}>Default</Text>
+        <Text href="#" className="pseudo-hover" iconLeading={<Link />} iconTrailing={<Arrow />}>Hover</Text>
+        <Text href="#" strong iconLeading={<Link />} iconTrailing={<Arrow />}>Strong</Text>
+        <Text href="#" underline iconLeading={<Link />} iconTrailing={<Arrow />}>Underline</Text>
+        <Text href="#" strong underline iconLeading={<Link />} iconTrailing={<Arrow />}>Strong + Underline</Text>
+      </div>
+      <div className="flex flex-col items-start gap-3">
+        <span className="text-paragraph-tiny uppercase tracking-wide text-content-tertiary">Code</span>
+        <Text type="code">const x = 1</Text>
+        <Text type="code" href="#" className="pseudo-focus">npm install (focus)</Text>
+      </div>
     </div>
   ),
 };

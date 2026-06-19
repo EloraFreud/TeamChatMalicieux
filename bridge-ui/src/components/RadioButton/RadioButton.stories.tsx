@@ -27,3 +27,14 @@ export const Group: Story = {
     </div>
   ),
 };
+
+export const States: Story = {
+  render: () => (
+    <div className="flex flex-col gap-4">
+      <RadioButton name="s1" label="Unselected" />
+      <RadioButton name="s2" label="Selected" defaultChecked />
+      <RadioButton name="s3" label="Disabled (unselected)" disabled />
+      <RadioButton name="s4" label="Disabled (selected)" disabled defaultChecked />
+    </div>
+  ),
+};
