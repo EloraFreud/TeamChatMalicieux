@@ -42,17 +42,19 @@ function PhoneField(args: ComponentProps<typeof Input>) {
       <Input
         {...args}
         leadingAddon={
-          <div className="w-44">
+          <div className="flex items-center gap-3">
             <Listbox
               value={country}
               onValueChange={setCountry}
-              triggerLeading={current.flag}
+              triggerContent={current.flag}
+              triggerClassName="rounded"
               items={COUNTRIES.map((c) => ({
                 value: c.value,
                 label: `${c.name} ${c.dial}`,
                 leading: c.flag,
               }))}
             />
+            <span className="font-display text-label-base text-content-primary">{current.dial}</span>
           </div>
         }
       />

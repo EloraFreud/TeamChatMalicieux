@@ -20,6 +20,10 @@ export interface ListboxProps {
   onValueChange?: (value: string) => void;
   /** Leading visual inside the trigger, before the selected label. */
   triggerLeading?: ReactNode;
+  /** Compact trigger: render only this content (e.g. a flag) + the caret, hug width — overrides triggerLeading/label. */
+  triggerContent?: ReactNode;
+  /** Extra classes merged onto the trigger button (e.g. to tweak its radius in a given context). */
+  triggerClassName?: string;
   className?: string;
 }
 
@@ -37,6 +41,8 @@ export function Listbox({
   defaultValue,
   onValueChange,
   triggerLeading,
+  triggerContent,
+  triggerClassName,
   className,
 }: ListboxProps) {
   const isControlled = value !== undefined;
@@ -72,22 +78,34 @@ export function Listbox({
           aria-labelledby={label != null ? labelId : undefined}
           onClick={() => setOpen((prev) => !prev)}
           className={cn(
-            'inline-flex w-full items-center gap-3 rounded-lg border border-border-primary bg-background-primary px-3 py-2',
+            'inline-flex items-center gap-2 rounded-lg border border-border-primary bg-background-primary px-3 py-2',
             'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-content-brand-brand',
+            triggerContent == null && 'w-full gap-3',
+            triggerClassName,
           )}
         >
-          {triggerLeading != null && (
-            <span className="flex shrink-0 items-center">{triggerLeading}</span>
+          {triggerContent != null ? (
+            <span className="flex shrink-0 items-center">{triggerContent}</span>
+          ) : (
+            <>
+              {triggerLeading != null && (
+                <span className="flex shrink-0 items-center">{triggerLeading}</span>
+              )}
+              <span
+                className={cn(
+                  'text-paragraph-small',
+                  selected != null ? 'text-content-primary' : 'text-content-secondary',
+                )}
+              >
+                {selected != null ? selected.label : placeholder}
+              </span>
+            </>
           )}
-          <span
-            className={cn(
-              'text-paragraph-small',
-              selected != null ? 'text-content-primary' : 'text-content-secondary',
-            )}
-          >
-            {selected != null ? selected.label : placeholder}
-          </span>
-          <CaretUpDown size={16} className="ml-auto shrink-0 text-content-secondary" aria-hidden />
+          <CaretUpDown
+            size={16}
+            className={cn('shrink-0 text-content-secondary', triggerContent == null && 'ml-auto')}
+            aria-hidden
+          />
         </button>
 
         {open && (
@@ -101,7 +119,7 @@ export function Listbox({
               role="listbox"
               aria-labelledby={label != null ? labelId : undefined}
               className={cn(
-                'absolute left-0 right-0 top-full z-20 mt-1 flex flex-col rounded-xl border border-border-primary bg-background-primary p-1 shadow-md',
+                'absolute left-0 right-0 top-full z-20 mt-1 flex min-w-[13rem] flex-col rounded-xl border border-border-primary bg-background-primary p-1 shadow-md',
               )}
             >
               {items.map((item) => {

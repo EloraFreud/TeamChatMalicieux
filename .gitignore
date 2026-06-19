@@ -13,3 +13,7 @@ node_modules/
 bridge-ui/dist/
 bridge-ui/storybook-static/
 bridge-ui/.storybook-out/
+
+# Vite temp config files
+bridge-ui/vite.config.ts.timestamp-*.mjs
+*.timestamp-*.mjs

@@ -38,11 +38,13 @@ const VARIANT: Record<ButtonVariant, string> = {
   ),
 };
 
+// Outer button padding per size. Icon↔text spacing comes from the text wrapper's px-2
+// (Figma uses gap 0 + a Text-container with [0,8,0,8] padding), so no gap here.
 const SIZE: Record<ButtonSize, string> = {
-  sm: 'h-7 gap-1.5 rounded-md px-2 text-label-tiny',
-  base: 'h-8 gap-1.5 rounded-lg px-2.5 text-label-tiny',
-  l: 'h-[38px] gap-2 rounded-lg px-3 text-label-small',
-  xl: 'h-12 gap-2 rounded-lg px-4 text-label-base',
+  sm: 'h-7 rounded-md px-2 text-label-tiny',
+  base: 'h-8 rounded-lg px-2.5 text-label-tiny',
+  l: 'h-[38px] rounded-lg px-3 text-label-small',
+  xl: 'h-12 rounded-lg px-4 text-label-base',
 };
 
 const SIZE_ICON: Record<ButtonSize, string> = {
@@ -75,8 +77,7 @@ export function Button({
       )}
     >
       {iconLeading != null && <span className="shrink-0">{iconLeading}</span>}
-      {!iconOnly && children}
-      {iconOnly && children}
+      {iconOnly ? children : <span className="px-2">{children}</span>}
       {iconTrailing != null && <span className="shrink-0">{iconTrailing}</span>}
     </button>
   );
