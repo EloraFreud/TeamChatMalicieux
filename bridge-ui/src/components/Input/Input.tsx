@@ -41,7 +41,10 @@ export function Input({
       )}
       <div
         className={cn(
-          'flex min-h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary px-4 py-2 focus-within:ring-2 focus-within:ring-content-brand-brand',
+          'flex min-h-12 items-center gap-2 rounded-lg border border-border-primary bg-background-secondary py-2 pr-4 focus-within:ring-2 focus-within:ring-content-brand-brand',
+          // a leading addon (e.g. the phone country pill) gets a left inset equal to the
+          // vertical inset, so it sits balanced in the field (matches Figma's Phone variant).
+          leadingAddon != null ? 'pl-2' : 'pl-4',
           disabled && 'cursor-not-allowed opacity-60',
         )}
       >
