@@ -9,26 +9,32 @@ import { Button } from '../Button';
 export interface ContactFormProps {
   /** Called when the form is submitted. Default-prevents nothing — wire it yourself. */
   onSubmit?: (e: FormEvent) => void;
+  /** Figma device variant: 'desktop' lays name/email rows side-by-side; 'mobile' stacks them. */
+  device?: 'desktop' | 'mobile';
   className?: string;
 }
 
 /**
  * ContactForm — contact card composing the field components (Input, TextArea,
- * Checkbox, Button). Figma: Device Desktop/Mobile. Presentational: pass onSubmit
- * to handle the submission; rows stack on mobile.
+ * Checkbox, Button). Figma: Device Desktop/Mobile. On mobile the paired fields
+ * stack and the padding tightens; desktop also stacks below the `sm` breakpoint.
  */
-export function ContactForm({ onSubmit, className }: ContactFormProps) {
+export function ContactForm({ onSubmit, device = 'desktop', className }: ContactFormProps) {
+  const isMobile = device === 'mobile';
+  const rowClass = isMobile ? 'flex flex-col gap-6' : 'flex flex-col gap-10 sm:flex-row';
+
   return (
     <form
       onSubmit={onSubmit}
       className={cn(
         'rounded-2xl border border-border-primary bg-background-primary',
+        isMobile && 'max-w-[342px]',
         className,
       )}
     >
-      <div className="flex flex-col gap-10 p-12">
+      <div className={cn('flex flex-col gap-10', isMobile ? 'p-8' : 'p-12')}>
         <div className="flex flex-col gap-8">
-          <div className="flex flex-col gap-10 sm:flex-row">
+          <div className={rowClass}>
             <Input
               className="flex-1"
               label="Prénom"
@@ -46,7 +52,7 @@ export function ContactForm({ onSubmit, className }: ContactFormProps) {
               required
             />
           </div>
-          <div className="flex flex-col gap-10 sm:flex-row">
+          <div className={rowClass}>
             <Input
               className="flex-1"
               label="Email"
