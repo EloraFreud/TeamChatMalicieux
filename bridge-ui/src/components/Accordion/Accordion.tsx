@@ -88,7 +88,7 @@ export function Accordion({
                 id={panelId}
                 role="region"
                 aria-labelledby={headerId}
-                className="flex flex-col gap-6 bg-background-secondary px-10 py-8"
+                className="flex flex-col gap-6 border-t border-border-secondary bg-background-secondary px-10 py-8"
               >
                 <div className="text-paragraph-base text-content-secondary">{item.answer}</div>
                 {item.href != null && (
