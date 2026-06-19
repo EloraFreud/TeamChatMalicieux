@@ -22,6 +22,8 @@ export interface ListboxProps {
   triggerLeading?: ReactNode;
   /** Compact trigger: render only this content (e.g. a flag) + the caret, hug width — overrides triggerLeading/label. */
   triggerContent?: ReactNode;
+  /** Extra classes merged onto the trigger button (e.g. to tweak its radius in a given context). */
+  triggerClassName?: string;
   className?: string;
 }
 
@@ -40,6 +42,7 @@ export function Listbox({
   onValueChange,
   triggerLeading,
   triggerContent,
+  triggerClassName,
   className,
 }: ListboxProps) {
   const isControlled = value !== undefined;
@@ -78,6 +81,7 @@ export function Listbox({
             'inline-flex items-center gap-2 rounded-lg border border-border-primary bg-background-primary px-3 py-2',
             'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-content-brand-brand',
             triggerContent == null && 'w-full gap-3',
+            triggerClassName,
           )}
         >
           {triggerContent != null ? (

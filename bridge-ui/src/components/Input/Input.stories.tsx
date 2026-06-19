@@ -47,6 +47,7 @@ function PhoneField(args: ComponentProps<typeof Input>) {
               value={country}
               onValueChange={setCountry}
               triggerContent={current.flag}
+              triggerClassName="rounded"
               items={COUNTRIES.map((c) => ({
                 value: c.value,
                 label: `${c.name} ${c.dial}`,
